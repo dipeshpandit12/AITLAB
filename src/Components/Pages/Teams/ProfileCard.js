@@ -7,7 +7,7 @@ function ProfileCard({ link }) {
 
   const truncateText = (text) => {
     if (text.length > 18) {
-      return text.substring(0, 14) + '..';
+      return text.substring(0, 11) + '..';
     }
     return text;
   };
