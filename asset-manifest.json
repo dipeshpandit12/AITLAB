@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AIT_LAB/static/css/main.a240c550.css",
-    "main.js": "/AIT_LAB/static/js/main.00166d56.js",
-    "static/js/453.8ab44547.chunk.js": "/AIT_LAB/static/js/453.8ab44547.chunk.js",
-    "index.html": "/AIT_LAB/index.html",
-    "main.a240c550.css.map": "/AIT_LAB/static/css/main.a240c550.css.map",
-    "main.00166d56.js.map": "/AIT_LAB/static/js/main.00166d56.js.map",
-    "453.8ab44547.chunk.js.map": "/AIT_LAB/static/js/453.8ab44547.chunk.js.map"
+    "main.css": "/AITLAB/static/css/main.a240c550.css",
+    "main.js": "/AITLAB/static/js/main.da9c5be6.js",
+    "static/js/453.8ab44547.chunk.js": "/AITLAB/static/js/453.8ab44547.chunk.js",
+    "index.html": "/AITLAB/index.html",
+    "main.a240c550.css.map": "/AITLAB/static/css/main.a240c550.css.map",
+    "main.da9c5be6.js.map": "/AITLAB/static/js/main.da9c5be6.js.map",
+    "453.8ab44547.chunk.js.map": "/AITLAB/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a240c550.css",
-    "static/js/main.00166d56.js"
+    "static/js/main.da9c5be6.js"
   ]
 }
