@@ -1,8 +1,8 @@
 {
-    "postdoctoralResearchAssociates": [
+    "Lab Assistant": [
       {
         "name": "Md. Nasim Khan",
-        "department": "",
+        "department": "Physic",
         "institution": "TXST",
         "years": "2022-Pre",
         "linkedinProfile": "https://www.linkedin.com/in/nasim045/",
@@ -11,14 +11,14 @@
       },
       {
         "name": "Soheil Sohrabi",
-        "department": "",
+        "department": "Civil Engineering",
         "institution": "TTI",
         "years": "2021-2022",
         "linkedinProfile": "",
         "email": ""
       }
     ],
-    "phdStudents": [
+    "PhD Students": [
       {
         "name": "Jinli Liu",
         "department": "Geography",
@@ -106,7 +106,7 @@
         "profilePicture":"https://media.licdn.com/dms/image/v2/D5603AQFRG1W2uGkoXw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1722680716325?e=1730937600&v=beta&t=Lgzg2bbMDf2v3wVfwhRSR1ZsvQliIcrjWnb0feMNk1Q"
       }
     ],
-    "msStudents": [
+    "MS Students": [
       {
         "name": "Vikram Agarwal",
         "department": "Civil Engineering",
@@ -245,7 +245,7 @@
         "email": ""
       }
     ],
-    "undergraduateStudents": [
+    "Undergraduate": [
       {
         "name": "Juan Gonzalez",
         "department": "Civil Engineering",
@@ -398,6 +398,16 @@
           "years": "2016",
           "linkedinProfile": "",
           "email": ""
+        }
+      ],
+      "Alumini":[
+        {
+          "name": "Ram",
+          "department": "CS and Engineering",
+          "institution": "TAMU",
+          "years": "2018-2019",
+          "linkedinProfile": "",
+          "emai":""
         }
       ]
     }

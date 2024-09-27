@@ -23,6 +23,7 @@ function ProfileCard({ link }) {
     border="none"
     variant="outline"
     backgroundColor="transparent"
+    textColor="white"
   >
     <Stack spacing={0}>
       <CardBody padding={0} overflow="hidden">
@@ -39,10 +40,10 @@ function ProfileCard({ link }) {
           alt="Profile Image"
         />
       </CardBody>
-      <CardFooter px="0.5rem">
-          <VStack alignItems="left" spacing={0}>
-          <Heading fontSize="1.5rem" fontWeight={550}>{truncateText(link.name)}</Heading>
-          <Text fontSize="1rem"  fontWeight={50}>{truncateText(link.department)}</Text>
+      <CardFooter px="0.5rem" >
+          <VStack alignItems="left" spacing={0} pb="0rem">
+          <Heading fontSize="1.9rem" spacing={0} pt="-1rem" fontWeight="500">{truncateText(link.name)}</Heading>
+          <Text size="sm"  fontWeight="100">{truncateText(link.department)}</Text>
         </VStack>
       </CardFooter>
     </Stack>

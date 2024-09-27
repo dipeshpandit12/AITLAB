@@ -2,6 +2,8 @@ import { Box ,Flex,Icon,Link,Text} from "@chakra-ui/react";
 import { FaGithub, FaLinkedin, FaTwitter, FaResearchgate } from "react-icons/fa";
 import { SiGooglescholar } from "react-icons/si";
 import socialMediaData from "../Datas/socialMediaData.json";
+
+
 export default function Footer() {
 
   const iconMap = {
