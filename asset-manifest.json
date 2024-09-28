@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AITLAB/static/css/main.a240c550.css",
-    "main.js": "/AITLAB/static/js/main.b54bb1d4.js",
+    "main.js": "/AITLAB/static/js/main.a7e93bf9.js",
     "static/js/453.8ab44547.chunk.js": "/AITLAB/static/js/453.8ab44547.chunk.js",
     "index.html": "/AITLAB/index.html",
     "main.a240c550.css.map": "/AITLAB/static/css/main.a240c550.css.map",
-    "main.b54bb1d4.js.map": "/AITLAB/static/js/main.b54bb1d4.js.map",
+    "main.a7e93bf9.js.map": "/AITLAB/static/js/main.a7e93bf9.js.map",
     "453.8ab44547.chunk.js.map": "/AITLAB/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a240c550.css",
-    "static/js/main.b54bb1d4.js"
+    "static/js/main.a7e93bf9.js"
   ]
 }
