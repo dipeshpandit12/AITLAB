@@ -6,5 +6,5 @@
     { "name": "Publication", "path": "publication" },
     { "name": "Courses", "path": "courses" },
     { "name": "Teams", "path": "teams" },
-    { "name": "Talk/Media", "path": "talk" }
+    { "name": "Media", "path": "media" }
 ]
