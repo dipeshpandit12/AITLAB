@@ -61,7 +61,7 @@ export default function Teams() {
             h="3rem"
             type="text"
             placeholder="Search"
-            borderRadius="null"
+            borderRadius="1rem"
             textColor="white"
             _placeholder={{ color: "gray.400" }}
             borderColor="white"

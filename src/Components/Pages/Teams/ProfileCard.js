@@ -22,6 +22,7 @@ function ProfileCard({ link }) {
     direction={{ base: 'column', sm: 'row' }}
     overflow="hidden"
     border="none"
+    borderRadius="1rem"
     variant="outline"
     backgroundColor="transparent"
     textColor="white"
