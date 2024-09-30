@@ -1,5 +1,6 @@
 import { Card,CardBody,Image,Text, Heading,Stack, CardFooter,VStack} from '@chakra-ui/react';
 import { useState } from 'react';
+import unknown from "./Unknown.png"
 
 function ProfileCard({ link }) {
 
@@ -7,7 +8,7 @@ function ProfileCard({ link }) {
 
   const truncateText = (text) => {
     if (text.length > 18) {
-      return text.substring(0, 11) + '..';
+      return text.substring(0, 15) + '..';
     }
     return text;
   };
@@ -30,7 +31,7 @@ function ProfileCard({ link }) {
         <Image
           width="100%"
           objectFit="cover"
-          src={link.profilePicture? link.profilePicture: 'https://www.shutterstock.com/image-vector/unknown-person-hidden-covered-masked-260nw-1552977773.jpg'}
+          src={link.profilePicture? link.profilePicture: unknown}
           style={{
             transform: isHovered ? 'scale(1.1)' : 'scale(1)',
             transition: 'transform 0.3s ease',
@@ -42,7 +43,7 @@ function ProfileCard({ link }) {
       </CardBody>
       <CardFooter px="0.5rem" >
           <VStack alignItems="left" spacing={0} pb="0rem">
-          <Heading fontSize="1.9rem" spacing={0} pt="-1rem" fontWeight="500">{truncateText(link.name)}</Heading>
+          <Heading fontSize="1.5rem" spacing={0} pt="-1rem" fontWeight="500">{truncateText(link.name)}</Heading>
           <Text size="sm"  fontWeight="100">{truncateText(link.department)}</Text>
         </VStack>
       </CardFooter>
