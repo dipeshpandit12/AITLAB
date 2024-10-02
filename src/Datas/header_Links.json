@@ -1,10 +1,7 @@
 [
     { "name": "HomePage", "path": "homepage"},
-    { "name": "AIT Lab", "path": "ait" },
-    { "name": "Resume", "path": "resume" },
     { "name": "Projects", "path": "projects" },
     { "name": "Publication", "path": "publication" },
-    { "name": "Courses", "path": "courses" },
     { "name": "Teams", "path": "teams" },
     { "name": "Media", "path": "media" }
 ]
