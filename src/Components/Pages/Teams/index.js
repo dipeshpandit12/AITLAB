@@ -75,7 +75,7 @@ export default function Teams() {
       {/* Team Categories */}
       <HStack
         fontSize={{ base: "1rem", md: "1.3rem" }}
-        justifyContent={{ base: "left", md: "left", lg: "center", xl: "center" }}
+        justifyContent="center"
         pb="3rem"
         wrap="wrap"
       >

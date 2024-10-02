@@ -36,16 +36,16 @@ export default function Header(){
       boxShadow="md"
     >
       <Flex
-        h={16}
+        h={{base:"2", md:"3rem", lg:"4rem", xl:"5rem"}}
         alignItems="center"
         justifyContent="space-between"
-        maxW="1200px"
+        maxW="100%"
         mx="auto"
       >
         <Link to="/" ><Image
           src=""
           alt="logo"
-          boxSize={{ base: '100px', md: '150px' }}
+          boxSize={{ base: '10rem', md: '15rem' }}
           objectFit="contain"
         />
         </Link>
@@ -53,7 +53,7 @@ export default function Header(){
           <Stack
             direction="row"
             spacing={1.5}
-            display={{ base: 'none', md: 'flex' }} // Keep space larger for elegance
+            display={{ base: 'none', md: 'none', lg:"flex",xl:"flex" }}
             alignItems="center"
           >
             {navLinks.map((item, index) => (
@@ -61,8 +61,7 @@ export default function Header(){
                 <Text
                   as="a"
                   color="white"
-                  padding="10.506px 0" // Padding to match the example
-                  margin="0 11.9px" // Match the horizontal margin
+                  px="1rem"
                   transition="color 0.8s ease-in-out, background-color 0.8s ease-in-out, opacity 0.8s"
                   _focus={{ boxShadow: 'none' }}
                   cursor="pointer"
@@ -79,7 +78,7 @@ export default function Header(){
           <IconButton
             aria-label="Open Menu"
             icon={<HamburgerIcon />}
-            display={{ base: 'flex', md: 'none' }}
+            display={{ base: 'flex', md: 'flex',lg:"none", xl:"none" }}
             onClick={onOpen}
             ml={2}
             variant="outline"
