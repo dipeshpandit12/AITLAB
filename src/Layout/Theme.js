@@ -1,37 +1,112 @@
 import { extendTheme } from "@chakra-ui/react";
 
-const theme = extendTheme({
+export default extendTheme({
+  fonts: {
+    title: "'Poppins', sans-serif", // Font for titles
+    body: "system-ui, sans-serif", // Default body font
+    heading: "Georgia, serif", // Default heading font
+    mono: "Menlo, monospace", // Default monospace font
+
+    primary: "'Roboto', sans-serif",      // Font for primary text
+    secondary: "'Open Sans', sans-serif", // Font for secondary text
+    tertiary: "'Lato', sans-serif",       // Font for tertiary text
+    quaternary: "'Montserrat', sans-serif", // Font for quaternary text
+    quinary: "'Merriweather', serif",     // Font for quinary text
+  },
   colors: {
-    brand: {
-      100: "#e356fc",
-      900: "#1a202c",
-    },
-    // Setting default text color for the whole app
-    text: "#2C3E50",
+    header_background: "white",
+    body_background: "white",
+    footer_background: "white",
+
+    primary: "#284B63",
+    secondary: "#F4F9E9",
+    tertiary: "#EEF0EB",
+    quaternary: "#B4B8AB",
+    quinary: "#153243",
   },
   components: {
     Heading: {
       baseStyle: {
-        fontFamily: "Arial, sans-serif",
+        fontFamily: "primary", // Assign primary font to Heading
+        fontWeight: "bold",    // Set font weight for Heading
+        color: "primary",      // Set color for Heading
       },
     },
-  },
-  styles: {
-    global: {
-      // Default text color for all elements
-      body: {
-        color: "#2C3E50",
-       fontFamily:"'Poppins', sans-serif"
+    Text: {
+      baseStyle: {
+        fontFamily: "secondary", // Assign secondary font to Text
+        fontWeight: "normal",    // Set font weight for Text
+        color: "quinary",        // Set color for Text
       },
-
-      header: {
-        bg: "white",
-      },
-      footer: {
-        bg: "white",
     },
-  },
+    Link: {
+      baseStyle: {
+        fontFamily: "tertiary", // Assign tertiary font to Link
+        fontWeight: "medium",   // Set font weight for Link
+        textDecoration: "underline", // Example of additional style
+        color: "primary",       // Set color for Link
+        _hover: {
+          color: "secondary",   // Change color on hover
+          textDecoration: "none" // Optional: Remove underline on hover
+        },
+      },
+    },
+    Button: {
+      baseStyle: {
+        fontWeight: "bold",
+        textTransform: "uppercase",
+        borderRadius: "md",
+      },
+      sizes: {
+        sm: {
+          fontSize: "12px",
+          px: 4,
+          py: 2,
+        },
+        md: {
+          fontSize: "16px",
+          px: 6,
+          py: 4,
+        },
+      },
+      variants: {
+        solid: {
+          bg: "quinary",
+          color: "secondary",
+          _hover: {
+            bg: "secondary",
+            color: "quinary",
+          },
+        },
+        outline: {
+          border: "2px solid",
+          borderColor: "primary",
+          color: "primary",
+          _hover: {
+            bg: "primary",
+            color: "secondary",
+          },
+        },
+        ghost: {
+          color: "primary",
+          _hover: {
+            bg: "primary",
+            color: "secondary",
+          },
+        },
+        link: {
+          color: "primary",
+          textDecoration: "underline",
+          _hover: {
+            cursor: "pointer",
+            color: "primary",
+          },
+        },
+      },
+      defaultProps: {
+        size: "md",
+        variant: "outline",
+      },
+    },
   },
 });
-
-export default theme;
