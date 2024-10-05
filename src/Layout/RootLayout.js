@@ -15,7 +15,7 @@ const fontSize = useBreakpointValue({ base: 'md', md: '17px' });
                  borderButtomRadius="3rem">
                 <Header/>
             </GridItem>
-            <GridItem colSpan={12} paddingY="3rem" paddingX={{base:"1rem",md:"2rem",lg:"4rem",xl:"4rem"}} minHeight="100vh" bg="body_background">
+            <GridItem colSpan={12} bg="body_background">
                 {children}
             </GridItem>
             <GridItem colSpan={12} bg="footer_background" color="white">

@@ -14,11 +14,11 @@ export default extendTheme({
     quinary: "'Merriweather', serif",     // Font for quinary text
   },
   colors: {
-    header_background: "white",
+    header_background: "gray",
     body_background: "white",
-    footer_background: "white",
+    footer_background: "gray",
 
-    primary: "#284B63",
+    primary: "black",
     secondary: "#F4F9E9",
     tertiary: "#EEF0EB",
     quaternary: "#B4B8AB",

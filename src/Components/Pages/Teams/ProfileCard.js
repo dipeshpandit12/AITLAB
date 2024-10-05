@@ -1,56 +1,91 @@
-import { Card,CardBody,Image,Text, Heading,Stack, CardFooter,VStack} from '@chakra-ui/react';
-import { useState } from 'react';
-import unknown from "./Unknown.png"
+import React, { useState } from "react";
+import { Box, Text, Image, Grid, GridItem, Button, VStack } from "@chakra-ui/react";
+import Modal_Page from "./Modal_Page"; // Assuming Modal_Page is a modal component for displaying the full content.
 
-function ProfileCard({ link }) {
-
-  const [isHovered, setIsHovered] = useState(false);
-
-  const truncateText = (text) => {
-    if (text.length > 18) {
-      return text.substring(0, 15) + '..';
-    }
-    return text;
-  };
+export default function ProfileCard({ data }) {
+  const [isTextTruncated, setIsTextTruncated] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <Card
-    minH="20rem"
-    minW="15rem"
-    maxW="16rem"
-    maxH="21rem"
-    direction={{ base: 'column', sm: 'row' }}
-    overflow="hidden"
-    border="none"
-    borderRadius="1rem"
-    variant="outline"
-    backgroundColor="transparent"
-    textColor="white"
-  >
-    <Stack spacing={0}>
-      <CardBody padding={0} overflow="hidden">
-        <Image
-          width="100%"
-          objectFit="cover"
-          src={link.profilePicture? link.profilePicture: unknown}
-          style={{
-            transform: isHovered ? 'scale(1.1)' : 'scale(1)',
-            transition: 'transform 0.3s ease',
-          }}
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
-          alt="Profile Image"
+    <>
+      <Grid
+        templateColumns={{ base: "repeat(2, 1fr)", lg: "repeat(2, auto)" }}
+        templateRows={{ base: "repeat(2, auto)", lg: "repeat(4, auto)" }}
+        gap={4}
+        maxW="40rem"
+        mx="auto"
+        p={5}
+      >
+        {/* Image Box */}
+        <GridItem
+          colSpan={{ base: 1, lg: 1 }}
+          rowSpan={{ base: 1, lg: 4 }}
+        >
+          <Image
+            src={data.profilePicture} // Replace with your image source
+            alt="Profile Image"
+            maxW={{ base: "10rem", md: "20rem", lg: "9rem" }}
+            height={{ base: "15rem", md: "", lg: "15rem" }}
+            objectFit="cover"
+            mx="auto"
+          />
+        </GridItem>
+
+        {/* Name Text */}
+        <GridItem
+          colSpan={{ base: 1, lg: 1 }}
+          rowSpan={{ base: 1, lg: 1 }}
+          display="flex"
+          alignItems="flex-start"
+          justifyContent="flex-start"
+          pt="1rem"
+        > <VStack align="left">
+          <Text fontSize="md" fontWeight="bold">
+            {data.name}
+          </Text>
+          <Text>
+            {data.label}
+          </Text>
+          </VStack>
+        </GridItem>
+
+        {/* Description Text */}
+        <GridItem colSpan={{ base: 2, lg: 1 }} rowSpan={{ base: 1, lg: 4 }}>
+          <Box position="relative" overflow="hidden">
+            <Text
+              fontSize="md"
+              noOfLines={5} // Limit the text to 5 lines
+              onMouseEnter={() => setIsTextTruncated(true)} // Detect if text is truncated
+              textAlign="justify"
+            >
+              {data.description}
+            </Text>
+
+            {/* Show More Button */}
+            {isTextTruncated && (
+              <Button
+                onClick={() => setIsModalOpen(true)} // Set state to open the modal
+                variant="link"
+                size="sm"
+                color="teal"
+                mt={2}
+              >
+                Show More
+              </Button>
+            )}
+          </Box>
+        </GridItem>
+      </Grid>
+
+      {/* Modal for Full Description */}
+      {isModalOpen && (
+        // eslint-disable-next-line react/jsx-pascal-case
+        <Modal_Page
+          isOpen={isModalOpen}
+          onClose={() => setIsModalOpen(false)}
+          data={data}
         />
-      </CardBody>
-      <CardFooter px="0.5rem" >
-          <VStack alignItems="left" spacing={0} pb="0rem">
-          <Heading fontSize="1.5rem" spacing={0} pt="-1rem" fontWeight="500">{truncateText(link.name)}</Heading>
-          <Text size="sm"  fontWeight="100">{truncateText(link.department)}</Text>
-        </VStack>
-      </CardFooter>
-    </Stack>
-    </Card>
+      )}
+    </>
   );
 }
-
-export default ProfileCard;

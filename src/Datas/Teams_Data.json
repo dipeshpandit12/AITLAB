@@ -1,6 +1,28 @@
 [
-  
-    {
+  {
+    "name": "Dr. Subasish Das",
+    "institution": "TXST",
+    "years": "2022-Pre",
+    "linkedinProfile": "https://www.linkedin.com/in/nasim045/",
+    "email": "rab347@txstate.edu",
+    "profilePicture": "https://media.licdn.com/dms/image/v2/D5603AQExcXv3_EGaNw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1706279446862?e=1730937600&v=beta&t=_qGJqEF4M7FGjbmfQAVZ2mGLf9n4dotguUliLQTiHfI",
+    "status":"current",
+    "label":"Director, AIT Lab",
+    "description":"Dr. Subasish Das is an Assistant Professor of Civil Engineering Program in the Ingram School of Engineering at Texas State University. He is also involved with Texas A&M Transportation Institute (TTI) as a part time Associate Research Scientist. Previously, he worked as a full-time Associate Research Scientist at TTI during 2015 to 2022. He has more than 13 years of experience related to roadway safety, traffic operation, and connected and automated vehicle (CAV) technologies. He is a Systems Engineer by training with hands on experience on Six Sigma and Lean Engineering. His major areas of expertise include database management, statistical analysis and machine learning with emphasis in safety and transportation operations, spatial analysis with modern web GIS tools, interactive data visualization, and deep learning tools for CAV technologies. Dr. Das is a prolific author. He has published more than 160 technical reports, and journal articles. He is the author of the book “Artificial Intelligence in Highway Safety,” which was published by CRC Press in 2022. The AASHTO Research Advisory Committee (RAC) awarded one of his research reports as 2014 AASHTO Sweet Sixteen High Value Research Project. Dr. Das is an active member of ITE, and ASCE. He is an Eno Fellow. He served as vice-president of membership of Young Professionals in Transportation Houston chapter. He is currently a member of three TRB Committees: Information and Knowledge Management (AJE45), Artificial Intelligence and Advanced Computing Applications (AED50), and Impairment in Transportation (ACS50)."
+  },
+  {
+    "name": "Subhashis Das",
+    "department": "Physic",
+    "institution": "TXST",
+    "years": "2022-Pre",
+    "linkedinProfile": "https://www.linkedin.com/in/nasim045/",
+    "email": "rab347@txstate.edu",
+    "profilePicture": "https://media.licdn.com/dms/image/v2/D5603AQExcXv3_EGaNw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1706279446862?e=1730937600&v=beta&t=_qGJqEF4M7FGjbmfQAVZ2mGLf9n4dotguUliLQTiHfI",
+    "status":"current",
+    "label":"PI",
+    "description":"An architect and engineer by training, Professor Carlo Ratti teaches at the Massachusetts Institute of Technology (MIT) and at the Politecnico di Milano. He is a founding partner of the architecture and innovation office CRA-Carlo Ratti Associati (Torino, New York City, and London) and the director of the Senseable City Lab. Carlo graduated from the Politecnico di Torino and the École Nationale des Ponts et Chaussées in Paris, and later carried out his MPhil and PhD work at the University of Cambridge, UK - completing his PhD thesis as a Fulbright Scholar at MIT.Read More"
+  },
+  {
       "name": "Md. Nasim Khan",
       "department": "Physic",
       "institution": "TXST",
@@ -8,8 +30,9 @@
       "linkedinProfile": "https://www.linkedin.com/in/nasim045/",
       "email": "rab347@txstate.edu",
       "profilePicture": "https://media.licdn.com/dms/image/v2/D5603AQExcXv3_EGaNw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1706279446862?e=1730937600&v=beta&t=_qGJqEF4M7FGjbmfQAVZ2mGLf9n4dotguUliLQTiHfI",
-      "label":"Lab Assistant"
-
+      "status":"current",
+      "label":"PI",
+    "description":"An architect and engineer by training sdf dsf sdfsdfdfsdf dsf sfds fs dfdsfdfdsdf dsf d s"
     },
     {
       "name": "Soheil Sohrabi",
@@ -18,6 +41,7 @@
       "years": "2021-2022",
       "linkedinProfile": "",
       "email": "",
+      "status":"alumini",
       "label":"Lab Assistant"
     },
     {
