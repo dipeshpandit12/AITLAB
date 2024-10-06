@@ -9,15 +9,14 @@ function App() {
   return (
     <RootLayout>
       <Routes>
-      <Route path="/" element={<Teams/>} />
+        <Route path="/" element={<HomePage />} />
         <Route path="homepage" element={<HomePage />} />
         <Route path="publication" element={<Publication />} />
-        <Route path="teams" element={<Teams/>} />
-        <Route path="projects" element={<Projects/>} />
+        <Route path="teams" element={<Teams />} />
+        <Route path="projects" element={<Projects />} />
       </Routes>
     </RootLayout>
   );
 }
 
 export default App;
-
