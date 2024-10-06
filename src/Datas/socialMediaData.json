@@ -3,27 +3,17 @@
       {
         "href": "https://github.com/subasish",
         "icon": "FaGithub",
-        "color": "white"
+        "color": "black"
       },
       {
         "href": "https://www.linkedin.com/in/subasishdas/",
         "icon": "FaLinkedin",
-        "color": "blue.300"
+        "color": "blue.500"
       },
       {
-        "href": "https://scholar.google.com/citations?user=qK-YgxAAAAAJ&hl=en",
-        "icon": "SiGooglescholar",
-        "color": "white.700"
-      },
-      {
-        "href": "https://twitter.com/subasish_das",
-        "icon": "FaTwitter",
-        "color": "blue.300"
-      },
-      {
-        "href": "https://www.researchgate.net/profile/Subasish-Das",
-        "icon": "FaResearchgate",
-        "color": "white.600"
+        "href": "https://subasish.github.io/",
+        "icon": "FaGlobe",
+        "color": "black.700"
       }
     ]
   }
