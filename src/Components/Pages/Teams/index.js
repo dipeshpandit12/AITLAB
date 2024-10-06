@@ -6,6 +6,7 @@ import { useState } from "react";
 
 export default function Teams() {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedAlumniData, setSelectedAlumniData] = useState(null);
 
   return (
     <Box px={{ lg: "5rem", xl: "5rem" }} py={{ lg: "3rem", xl: "3rem" }}>
@@ -38,7 +39,10 @@ export default function Teams() {
             Alumni
           </Heading>
         </Box>
-        <Box width={{ base: "100%", md: "70%", lg: "70%", xl: "70%" }} p={{base:"1rem",lg:"8rem"}}>
+        <Box
+          width={{ base: "100%", md: "70%", lg: "70%", xl: "70%" }}
+          p={{ base: "1rem", lg: "8rem" }}
+        >
           {Teams_Datas.filter((data) => data.status === "Alumni").map(
             (data, index) => (
               <HStack spacing={5} p="0.7rem">
@@ -46,7 +50,10 @@ export default function Teams() {
                   {data.name}
                 </Heading>
                 <Button
-                  onClick={() => setIsModalOpen(true)} // Set state to open the modal
+                  onClick={() => {
+                    setSelectedAlumniData(data); // Set the selected alumni data
+                    setIsModalOpen(true);
+                  }} // Set state to open the modal
                   variant="link"
                   size="sm"
                   color="teal"
@@ -57,20 +64,19 @@ export default function Teams() {
               </HStack>
             )
           )}
+          {/* --------------------------For Modal -----------------------------------------*/}
+
+          {/* Modal for Full Details of Alumni */}
+          {isModalOpen && (
+            // eslint-disable-next-line react/jsx-pascal-case
+            <Modal_Page
+              isOpen={isModalOpen}
+              onClose={() => setIsModalOpen(false)}
+              data={selectedAlumniData}
+            />
+          )}
         </Box>
       </Flex>
-
-      {/* --------------------------For Modal -----------------------------------------*/}
-
-      {/* Modal for Full Details of Alumni */}
-      {isModalOpen && (
-        // eslint-disable-next-line react/jsx-pascal-case
-        <Modal_Page
-          isOpen={isModalOpen}
-          onClose={() => setIsModalOpen(false)}
-          // data={data}
-        />
-      )}
     </Box>
   );
 }
