@@ -2,6 +2,7 @@
 
 import { Box, Text, Link, Stack, Icon } from "@chakra-ui/react";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { FaGoogleScholar, FaResearchgate } from "react-icons/fa6"; // Import from fa6
 
 export default function Footer() {
   return (
@@ -13,6 +14,7 @@ export default function Footer() {
         maxW="container.xl"
         mx="auto"
         px={4}
+        spacing={6}
       >
         {/* Footer Links with Icons */}
         <Stack direction="row" spacing={6}>
@@ -29,10 +31,24 @@ export default function Footer() {
           <Link href="https://github.com/subasish" isExternal fontSize="2xl">
             <Icon as={FaGithub} mr={2} color="white" />
           </Link>
+          <Link
+            href="https://scholar.google.com/citations?user=qK-YgxAAAAAJ&hl=en"
+            isExternal
+            fontSize="2xl"
+          >
+            <Icon as={FaGoogleScholar} mr={2} color="white" />
+          </Link>
+          <Link
+            href="https://www.researchgate.net/profile/Subasish_Das"
+            isExternal
+            fontSize="2xl"
+          >
+            <Icon as={FaResearchgate} mr={2} color="white" />
+          </Link>
         </Stack>
 
         {/* Copyright Information */}
-        <Text textAlign={{ base: "center", md: "right" }}>
+        <Text fontSize="xl" textAlign={{ base: "center", md: "right" }}>
           &copy; {new Date().getFullYear()} AIT Lab. All rights reserved.
         </Text>
       </Stack>
