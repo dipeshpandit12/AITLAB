@@ -1,26 +1,28 @@
-import {Grid,GridItem,useBreakpointValue} from "@chakra-ui/react";
-import Header from "./Header";
+/** @format */
+
+import { Grid, GridItem, Box, Container } from "@chakra-ui/react";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 
-export default function RootLayout({children}){
+export default function RootLayout({ children }) {
+  return (
+    <Grid templateRows="auto 1fr auto" minH="100vh">
+      {/* Navbar (Full Width) */}
+      <GridItem as="header" w="100%">
+        <Navbar />
+      </GridItem>
 
-const fontSize = useBreakpointValue({ base: 'md', md: '17px' });
-  const fontFamily = "'Ubuntu', sans-serif";
-    return (
-        <Grid
-            templateColumns="repeat(12, 1fr)"
-            templateRows="auto 1fr"
-        >
-            <GridItem rowSpan={1} colSpan={12} bg="header_background" fontFamily={fontFamily} fontSize={fontSize}
-                 borderButtomRadius="3rem">
-                <Header/>
-            </GridItem>
-            <GridItem colSpan={12} bg="body_background">
-                {children}
-            </GridItem>
-            <GridItem colSpan={12} bg="footer_background" color="white">
-                <Footer/>
-            </GridItem>
-        </Grid>
-    )
+      {/* Main Content (Limited to container.xl) */}
+      <GridItem as="main" w="100%">
+        <Container maxW="container.xl" py={8}>
+          {children}
+        </Container>
+      </GridItem>
+
+      {/* Footer (Full Width) */}
+      <GridItem as="footer" w="100%" color="white">
+        <Footer />
+      </GridItem>
+    </Grid>
+  );
 }

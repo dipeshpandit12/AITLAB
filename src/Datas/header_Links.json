@@ -1,7 +1,0 @@
-[
-    { "name": "HomePage", "path": "homepage"},
-    { "name": "Projects", "path": "projects" },
-    { "name": "Publication", "path": "publication" },
-    { "name": "Teams", "path": "teams" },
-    { "name": "Media", "path": "media" }
-]
