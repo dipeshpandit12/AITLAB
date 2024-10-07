@@ -24,7 +24,7 @@ function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Box bg="teal.500" w="100%">
+    <Box bg="blue.500" w="100%">
       {/* Container to constrain content within container.xl */}
       <Container maxW="container.xl">
         <Flex h={16} alignItems="center" justifyContent="space-between">
@@ -101,9 +101,7 @@ function Navbar() {
                   to={item.path}
                   onClick={onClose}
                 >
-                  <Text fontWeight="bold">
-                    {item.name}
-                  </Text>
+                  <Text fontWeight="bold">{item.name}</Text>
                 </NavLink>
               ))}
             </Stack>

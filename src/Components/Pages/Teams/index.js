@@ -29,7 +29,7 @@ const Team = () => {
   return (
     <Box py={8}>
       <Container maxW="container.xl">
-        <Heading as="h1" size="2xl" mb={6} color="teal.600">
+        <Heading as="h1" size="2xl" mb={6} color="blue.600">
           Current Team
         </Heading>
 
@@ -60,7 +60,7 @@ const Team = () => {
                       mb={{ base: 4, md: 0 }}
                     />
                     <Stack spacing={3} flex="1">
-                      <Text fontSize="lg" fontWeight="bold" color="teal.800">
+                      <Text fontSize="lg" fontWeight="bold" color="blue.800">
                         {member.name}
                       </Text>
                       <Text fontSize="sm" color="gray.500">
@@ -104,7 +104,7 @@ const Team = () => {
                       <Button
                         mt={2}
                         variant="link"
-                        color="teal.500"
+                        color="blue.500"
                         _hover={{ textDecoration: "underline" }}
                       >
                         Show more

@@ -37,7 +37,7 @@ const ResearchPaperItem = ({ title, total_citations, year, url }) => {
             fontSize="lg"
             fontWeight="bold"
             color="primary"
-            _hover={{ color: "teal.600" }} // Hover effect for text
+            _hover={{ color: "blue.600" }} // Hover effect for text
           >
             {title}
           </Text>

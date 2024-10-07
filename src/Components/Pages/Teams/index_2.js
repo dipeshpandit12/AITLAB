@@ -56,7 +56,7 @@ export default function Teams() {
                   }} // Set state to open the modal
                   variant="link"
                   size="sm"
-                  color="teal"
+                  color="blue"
                   pt="1rem"
                 >
                   Know More

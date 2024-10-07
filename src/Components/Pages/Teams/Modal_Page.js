@@ -2,7 +2,11 @@ import { Modal,ModalOverlay, ModalContent, ModalHeader, Text, ModalCloseButton, 
 
 export default function Modal_Page({ data, isOpen, onClose }) {
   return (
-    <Modal isOpen={isOpen} onClose={onClose} size={{base:"lg", md:"lg", lg:"3xl",xl:"5xl"}}>
+    <Modal
+      isOpen={isOpen}
+      onClose={onClose}
+      size={{ base: "lg", md: "lg", lg: "3xl", xl: "5xl" }}
+    >
       <ModalOverlay />
       <ModalContent>
         <ModalHeader>
@@ -10,10 +14,12 @@ export default function Modal_Page({ data, isOpen, onClose }) {
         </ModalHeader>
         <ModalCloseButton />
         <ModalBody>
-          <Text fontSize="md" textAlign="justify">{data.description}</Text>
+          <Text fontSize="md" textAlign="justify">
+            {data.description}
+          </Text>
         </ModalBody>
         <ModalFooter>
-          <Button colorScheme="teal" onClick={onClose}>
+          <Button colorScheme="blue" onClick={onClose}>
             Close
           </Button>
         </ModalFooter>

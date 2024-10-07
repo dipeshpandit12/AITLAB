@@ -19,7 +19,7 @@ const Openings = () => {
     <Box py={8}>
       <Container maxW="container.xl">
         {/* Heading */}
-        <Heading as="h1" size="2xl" mb={6} color="teal.600">
+        <Heading as="h1" size="2xl" mb={6} color="blue.600">
           Openings
         </Heading>
 
@@ -35,15 +35,15 @@ const Openings = () => {
         {/* Research Thrusts */}
         <List spacing={3} mb={4}>
           <ListItem>
-            <ListIcon as={FaCheckCircle} color="teal.500" />
+            <ListIcon as={FaCheckCircle} color="blue.500" />
             Causal Artificial Intelligence
           </ListItem>
           <ListItem>
-            <ListIcon as={FaCheckCircle} color="teal.500" />
+            <ListIcon as={FaCheckCircle} color="blue.500" />
             Advanced Spatiotemporal Modeling
           </ListItem>
           <ListItem>
-            <ListIcon as={FaCheckCircle} color="teal.500" />
+            <ListIcon as={FaCheckCircle} color="blue.500" />
             Transportation Safety and Operation
           </ListItem>
         </List>
@@ -55,23 +55,23 @@ const Openings = () => {
 
         <List spacing={3} mb={4}>
           <ListItem>
-            <ListIcon as={FaCheckCircle} color="teal.500" />
+            <ListIcon as={FaCheckCircle} color="blue.500" />
             Assist in writing literature review
           </ListItem>
           <ListItem>
-            <ListIcon as={FaCheckCircle} color="teal.500" />
+            <ListIcon as={FaCheckCircle} color="blue.500" />
             Develop spatiotemporal models
           </ListItem>
           <ListItem>
-            <ListIcon as={FaCheckCircle} color="teal.500" />
+            <ListIcon as={FaCheckCircle} color="blue.500" />
             Apply different AI algorithms
           </ListItem>
           <ListItem>
-            <ListIcon as={FaCheckCircle} color="teal.500" />
+            <ListIcon as={FaCheckCircle} color="blue.500" />
             Maintain codes and repositories in GitHub
           </ListItem>
           <ListItem>
-            <ListIcon as={FaCheckCircle} color="teal.500" />
+            <ListIcon as={FaCheckCircle} color="blue.500" />
             Build and maintain complex web applications for real-time
             spatiotemporal data stream
           </ListItem>
@@ -88,10 +88,10 @@ const Openings = () => {
           isExternal
         >
           <Button
-            size="lg" 
-            colorScheme="teal"
+            size="lg"
+            colorScheme="blue"
             variant="outline"
-            _hover={{ bg: "teal.500", color: "white" }}
+            _hover={{ bg: "blue.500", color: "white" }}
           >
             Download PDF
           </Button>

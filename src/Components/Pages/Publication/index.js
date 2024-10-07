@@ -209,7 +209,7 @@ const ResearchPapers = () => {
   return (
     <Box py={8}>
       <Container maxW="container.xl">
-        <Heading as="h1" size="2xl" mb={6} color="teal.600">
+        <Heading as="h1" size="2xl" mb={6} color="blue.600">
           Research Papers
         </Heading>
 
@@ -263,7 +263,7 @@ const ResearchPapers = () => {
         {/* Loading Animation while Searching or Changing Pages */}
         {(searching || isPageChanging || isSorting) && (
           <Box textAlign="center" py={6}>
-            <Spinner size="xl" color="teal.500" />
+            <Spinner size="xl" color="blue.500" />
           </Box>
         )}
 
@@ -305,9 +305,9 @@ const ResearchPapers = () => {
                   <Button
                     onClick={handlePrevPage}
                     isDisabled={currentPage === 1}
-                    colorScheme="teal"
+                    colorScheme="blue"
                     variant="outline"
-                    _hover={{ bg: "teal.600", color: "white" }}
+                    _hover={{ bg: "blue.600", color: "white" }}
                   >
                     Previous
                   </Button>
@@ -319,9 +319,9 @@ const ResearchPapers = () => {
                   <Button
                     onClick={handleNextPage}
                     isDisabled={currentPage === totalPages}
-                    colorScheme="teal"
+                    colorScheme="blue"
                     variant="outline"
-                    _hover={{ bg: "teal.600", color: "white" }}
+                    _hover={{ bg: "blue.600", color: "white" }}
                   >
                     Next
                   </Button>
