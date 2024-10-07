@@ -31,9 +31,9 @@ function Navbar() {
           {/* Logo: Clickable to Home */}
           <NavLink to="/">
             <Image
-              src="/img/logo512.png" // Path to logo in the public folder
-              alt="Logo"
-              boxSize="50px"
+              src="/img/logo-white.png" // Path to logo in the public folder
+              alt="AIT Lab Logo"
+              boxSize="70px"
               objectFit="contain"
               cursor="pointer"
             />
@@ -49,7 +49,8 @@ function Navbar() {
               >
                 {({ isActive }) => (
                   <Text
-                    textTransform="uppercase"
+                    fontSize="larger"
+                    letterSpacing="wide"
                     color="white"
                     position="relative"
                     paddingBottom="3px"
@@ -100,7 +101,7 @@ function Navbar() {
                   to={item.path}
                   onClick={onClose}
                 >
-                  <Text fontWeight="bold" textTransform="uppercase">
+                  <Text fontWeight="bold">
                     {item.name}
                   </Text>
                 </NavLink>

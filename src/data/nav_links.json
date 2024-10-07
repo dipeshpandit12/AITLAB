@@ -3,5 +3,6 @@
   { "name": "Projects", "path": "/projects" },
   { "name": "Publication", "path": "/publication" },
   { "name": "Team", "path": "/teams" },
-  { "name": "Opening", "path": "/opening" }
+  { "name": "Opening", "path": "/opening" },
+  { "name": "Resume", "path": "https://subasish.github.io/ait_lab/pdfs/Subasish%20Das%20CV%20revised.pdf" }
 ]
