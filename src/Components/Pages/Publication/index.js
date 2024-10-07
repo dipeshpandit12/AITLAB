@@ -19,6 +19,7 @@ import { motion } from "framer-motion"; // Import framer-motion for animations
 
 const ResearchPapers = () => {
   const [papers, setPapers] = useState([]);
+  const [lastUpdated, setLastUpdated] = useState(""); // Store the last updated timestamp
   const [filteredPapers, setFilteredPapers] = useState([]);
   const [searching, setSearching] = useState(false); // State for showing searching animation
   const [searchTerm, setSearchTerm] = useState("");
@@ -41,6 +42,7 @@ const ResearchPapers = () => {
           "https://raw.githubusercontent.com/Xatta-Trone/google-scholar-scrapper/refs/heads/main/scholar-data-qK-YgxAAAAAJ.json"
         );
         setPapers(response.data.data || []);
+        setLastUpdated(response.data.last_updated_utc); // Set the last updated timestamp
       } catch (error) {
         console.error("Error fetching research papers:", error);
       }
@@ -56,6 +58,18 @@ const ResearchPapers = () => {
     setSortByCitation(searchParams.get("citations") || "");
     setCurrentPage(parseInt(searchParams.get("page")) || 1);
   }, [location.search]);
+
+  // Function to format the timestamp
+  const formatDate = (dateString) => {
+    const options = {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+    };
+    return new Date(dateString).toLocaleDateString(undefined, options);
+  };
 
   // Debounced Search Function
   const handleSearch = useCallback(
@@ -196,6 +210,11 @@ const ResearchPapers = () => {
       <Container maxW="container.xl">
         <Text fontSize="4xl" fontWeight="bold" mb={6} color="teal.600">
           Research Papers
+        </Text>
+
+        {/* Source and Last Updated Timestamp */}
+        <Text fontSize="sm" color="gray.600" mb={2}>
+          Last Updated: {formatDate(lastUpdated)} from Google Scholar
         </Text>
 
         {/* Search and Sorting */}
