@@ -13,18 +13,21 @@ import {
 } from "@chakra-ui/react";
 import Modal_Page from "./Modal_Page";
 import { FaGithub, FaLinkedin, FaGlobe } from "react-icons/fa";
+import { SiGooglescholar } from "react-icons/si";
 
 export default function ProfileCard({ data }) {
   const iconMap = {
     github: FaGithub,
     linkedin: FaLinkedin,
     website: FaGlobe,
+    googlescholar: SiGooglescholar,
   };
   // Centralized color mapping
   const colorMap = {
     github: "#333",
     linkedin: "#0e76a8",
     website: "#1a202c",
+    googlescholar:"#333",
   };
 
   const [profilePicture, setProfilePicture] = useState(data.profilePicture);
