@@ -20,7 +20,7 @@ const ResearchPaperItem = ({ title, total_citations, year, url }) => {
       {/* Card Image Placeholder */}
       <Box overflow="hidden" borderRadius="md">
         <Image
-          src="https://picsum.photos/400/200" // Placeholder image
+          src="/img/research-default.jpg" // Placeholder image
           alt="Research Paper Thumbnail"
           width="100%"
           height="200px"
