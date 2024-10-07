@@ -48,7 +48,7 @@ export default function Footer() {
         </Stack>
 
         {/* Copyright Information */}
-        <Text fontSize="xl" textAlign={{ base: "center", md: "right" }}>
+        <Text fontSize="xl" color={"gray.400"} textAlign={{ base: "center", md: "right" }}>
           &copy; {new Date().getFullYear()} AIT Lab. All rights reserved.
         </Text>
       </Stack>

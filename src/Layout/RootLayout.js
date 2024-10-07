@@ -1,6 +1,6 @@
 /** @format */
 
-import { Grid, GridItem, Box, Container } from "@chakra-ui/react";
+import { Grid, GridItem,  Container } from "@chakra-ui/react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
