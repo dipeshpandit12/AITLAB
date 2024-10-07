@@ -8,7 +8,7 @@ export default extendTheme({
     body: "'Roboto', sans-serif", // Font for body text
   },
   colors: {
-    primary: "teal", // Golden color for primary elements
+    primary: "blue", // Golden color for primary elements
     background: "#1A202C", // Dark background
     text: "#1A202C", // Light text color for dark mode
   },

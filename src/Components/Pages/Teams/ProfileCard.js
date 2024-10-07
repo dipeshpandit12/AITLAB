@@ -83,8 +83,8 @@ export default function ProfileCard({ data }) {
             {data.links?.length > 0 && (
               <HStack pt="0.3rem" spacing={2} mt={3}>
                 {data.links.map((link, index) => {
-                  const IconComponent = iconMap[link.icon]; 
-                  const iconColor = colorMap[link.icon]; 
+                  const IconComponent = iconMap[link.icon];
+                  const iconColor = colorMap[link.icon];
 
                   return (
                     <Link href={link.href} isExternal key={index}>
@@ -100,15 +100,15 @@ export default function ProfileCard({ data }) {
             )}
 
             {/* Show More Button */}
-              <Button
-                onClick={() => setIsModalOpen(true)} // Set state to open the modal
-                variant="link"
-                size="sm"
-                color="teal"
-                pt="1rem"
-              >
-                Show More
-              </Button>
+            <Button
+              onClick={() => setIsModalOpen(true)} // Set state to open the modal
+              variant="link"
+              size="sm"
+              color="blue"
+              pt="1rem"
+            >
+              Show More
+            </Button>
           </Box>
         </GridItem>
       </Grid>
