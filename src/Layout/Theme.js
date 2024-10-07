@@ -8,7 +8,7 @@ export default extendTheme({
     body: "'Roboto', sans-serif", // Font for body text
   },
   colors: {
-    primary: "#DAA520", // Golden color for primary elements
+    primary: "teal", // Golden color for primary elements
     background: "#1A202C", // Dark background
     text: "#F7FAFC", // Light text color for dark mode
   },
@@ -66,7 +66,7 @@ export default extendTheme({
     },
   },
   config: {
-    initialColorMode: "dark", // Default to dark mode
+    initialColorMode: "light", // Default to dark mode
     useSystemColorMode: false, // Do not use the system color mode
   },
 });
