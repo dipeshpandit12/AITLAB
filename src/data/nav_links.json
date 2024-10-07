@@ -3,5 +3,5 @@
   { "name": "Projects", "path": "/projects" },
   { "name": "Publication", "path": "/publication" },
   { "name": "Team", "path": "/teams" },
-  { "name": "Media", "path": "media" }
+  { "name": "Opening", "path": "/opening" }
 ]

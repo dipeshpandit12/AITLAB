@@ -10,7 +10,7 @@ export default extendTheme({
   colors: {
     primary: "teal", // Golden color for primary elements
     background: "#1A202C", // Dark background
-    text: "#F7FAFC", // Light text color for dark mode
+    text: "#1A202C", // Light text color for dark mode
   },
   components: {
     Heading: {

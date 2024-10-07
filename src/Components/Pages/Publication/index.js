@@ -11,6 +11,7 @@ import {
   SimpleGrid,
   Select,
   Spinner,
+  Heading,
 } from "@chakra-ui/react";
 import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -208,9 +209,9 @@ const ResearchPapers = () => {
   return (
     <Box py={8}>
       <Container maxW="container.xl">
-        <Text fontSize="4xl" fontWeight="bold" mb={6} color="teal.600">
+        <Heading as="h1" size="2xl" mb={6} color="teal.600">
           Research Papers
-        </Text>
+        </Heading>
 
         {/* Source and Last Updated Timestamp */}
         <Text fontSize="sm" color="gray.600" mb={2}>
