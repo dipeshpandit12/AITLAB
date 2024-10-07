@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Button, HStack } from "@chakra-ui/react";
+import { Box, Flex, Heading, Button,Td, Tr, TableContainer,Table,Tbody } from "@chakra-ui/react";
 import ProfileCard from "./ProfileCard";
 import Teams_Datas from "../../../Datas/Teams_Data.json";
 import Modal_Page from "./Modal_Page";
@@ -43,12 +43,18 @@ export default function Teams() {
           width={{ base: "100%", md: "70%", lg: "70%", xl: "70%" }}
           p={{ base: "1rem", lg: "8rem" }}
         >
+          <TableContainer>
+          <Table variant="simple">
+          <Tbody>
           {Teams_Datas.filter((data) => data.status === "Alumni").map(
             (data, index) => (
-              <HStack spacing={5} p="0.7rem">
+              <Tr key={index}>
+                <Td>
                 <Heading fontSize="lg" key={index}>
                   {data.name}
                 </Heading>
+                </Td>
+                <Td>
                 <Button
                   onClick={() => {
                     setSelectedAlumniData(data); // Set the selected alumni data
@@ -61,9 +67,13 @@ export default function Teams() {
                 >
                   Know More
                 </Button>
-              </HStack>
+                </Td>
+                </Tr>
             )
           )}
+           </Tbody>
+        </Table>
+      </TableContainer>
           {/* --------------------------For Modal -----------------------------------------*/}
 
           {/* Modal for Full Details of Alumni */}
