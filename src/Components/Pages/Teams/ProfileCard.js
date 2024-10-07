@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Box,
   Text,
@@ -27,6 +27,16 @@ export default function ProfileCard({ data }) {
     website: "#1a202c",
   };
 
+  const [profilePicture, setProfilePicture] = useState(data.profilePicture);
+
+  // Update the profile picture path based on the `imageProfile` URL
+  useEffect(() => {
+    if (data.profilePicture) {
+      const localImagePath = `${process.env.PUBLIC_URL}/profile_pictures/${data.profilePicture}.jpg`;
+      setProfilePicture(localImagePath);
+    }
+  }, [data.profilePicture]);
+
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
@@ -42,8 +52,8 @@ export default function ProfileCard({ data }) {
         {/* Image Box */}
         <GridItem colSpan={{ base: 1, lg: 1 }} rowSpan={{ base: 1, lg: 4 }}>
           <Image
-            src={data.profilePicture}
-            alt="Profile Image"
+            src={profilePicture} //make sure the {data.profilepicture name is same with the image name}
+            alt={data.profilePicture}
             maxW={{ base: "10rem", md: "20rem", lg: "9rem" }}
             height={{ base: "15rem", md: "", lg: "15rem" }}
             objectFit="cover"
@@ -83,8 +93,8 @@ export default function ProfileCard({ data }) {
             {data.links?.length > 0 && (
               <HStack pt="0.3rem" spacing={2} mt={3}>
                 {data.links.map((link, index) => {
-                  const IconComponent = iconMap[link.icon]; 
-                  const iconColor = colorMap[link.icon]; 
+                  const IconComponent = iconMap[link.icon];
+                  const iconColor = colorMap[link.icon];
 
                   return (
                     <Link href={link.href} isExternal key={index}>
@@ -100,15 +110,15 @@ export default function ProfileCard({ data }) {
             )}
 
             {/* Show More Button */}
-              <Button
-                onClick={() => setIsModalOpen(true)} // Set state to open the modal
-                variant="link"
-                size="sm"
-                color="teal"
-                pt="1rem"
-              >
-                Show More
-              </Button>
+            <Button
+              onClick={() => setIsModalOpen(true)} // Set state to open the modal
+              variant="link"
+              size="sm"
+              color="teal"
+              pt="1rem"
+            >
+              Show More
+            </Button>
           </Box>
         </GridItem>
       </Grid>
