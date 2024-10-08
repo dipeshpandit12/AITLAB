@@ -3,12 +3,14 @@
     "name": "Subasish Das",
     "label": "Director, AIT Lab",
     "group": "Faculty",
-    "linkedin": "",
-    "email": "",
-    "image": "",
-    "description": "Dr. Subasish Das is an Assistant Professor of Civil Engineering Program in the Ingram School of Engineering at Texas State University. He is also involved with Texas A&M Transportation Institute (TTI) as a part time Associate Research Scientist...",
-    "googleScholar": "",
-    "github": ""
+    "linkedin": "https://www.linkedin.com/in/subasishdas/",
+    "email": "mvx13@txstate.edu",
+    "image": "SD_HeadShot.JPG",
+    "description": "Dr. Subasish Das is an Assistant Professor of Civil Engineering Program in the Ingram School of Engineering at Texas State University. He is also involved with Texas A&M Transportation Institute (TTI) as a part time Associate Research Scientist. Previously, he worked as a full-time Associate Research Scientist at TTI during 2015 to 2022. He has more than 13 years of experience related to roadway safety, traffic operation, and connected and automated vehicle (CAV) technologies. He is a Systems Engineer by training with hands on experience on Six Sigma and Lean Engineering. His major areas of expertise include database management, statistical analysis and machine learning with emphasis in safety and transportation operations, spatial analysis with modern web GIS tools, interactive data visualization, and deep learning tools for CAV technologies. Dr. Das is a prolific author. He has published more than 160 technical reports, and journal articles. He is the author of the book “Artificial Intelligence in Highway Safety,” which was published by CRC Press in 2022. The AASHTO Research Advisory Committee (RAC) awarded one of his research reports as 2014 AASHTO Sweet Sixteen High Value Research Project. Dr. Das is an active member of ITE, and ASCE. He is an Eno Fellow. He served as vice-president of membership of Young Professionals in Transportation Houston chapter. He is currently a member of three TRB Committees: Information and Knowledge Management (AJE45), Artificial Intelligence and Advanced Computing Applications (AED50), and Impairment in Transportation (ACS50).",
+    "googleScholar": "https://scholar.google.com/citations?user=qK-YgxAAAAAJ&hl=en",
+    "github": "https://github.com/subasish",
+    "twitter": "https://x.com/subasish_das",
+    "websites": ["https://subasish.github.io/"]
   },
   {
     "name": "Ahmed Hossain",
@@ -17,9 +19,11 @@
     "linkedin": "https://www.linkedin.com/in/ahmed-hossain-7a623ab2/",
     "email": "",
     "image": "",
-    "description": "Ahmed Hossain is a transportation safety specialist with a deep focus on analyzing crash data to minimize traffic-related incidents and improve road safety...",
+    "description": "Ahmed Hossain is a transportation safety specialist with a deep focus on analyzing crash data to minimize traffic-related incidents and improve road safety. His expertise spans both classical statistical methods and cutting-edge techniques, such as machine learning and hybrid approaches, to identify and model crash patterns. He holds a Ph.D. in Systems Engineering with a concentration in Civil Engineering from the University of Louisiana at Lafayette, as well as a Master’s degree from the same institution, and an undergraduate degree in Civil Engineering from Rajshahi University of Engineering & Technology, Bangladesh. Currently, Ahmed serves as a Post-Doctoral Researcher at the Artificial Intelligence in Transportation (AIT) Lab in the Civil Engineering Department at Texas State University. Over the years, he has contributed to over 30 peer-reviewed papers and presented his research at major international conferences across the U.S. He has been involved in several projects funded by the Louisiana Transportation Research Center (LTRC), Louisiana Department of Transportation and Development (LaDOTD), National Co-operative Highway Research Program (NCHRP). Ahmed’s research interests are diverse, focusing on improving transportation safety for vulnerable populations such as pedestrians, older adults, and young drivers, as well as safety in high-speed driving environments. His work also extends to exploring the impact of emerging technologies like connected and autonomous vehicles on road safety. As a dedicated researcher, Ahmed is committed to leveraging his multidisciplinary expertise to create data-driven solutions that enhance transportation safety, reduce crash risk, and inform policymaking.",
     "googleScholar": "https://scholar.google.com/citations?user=U9tD0ywAAAAJ&hl=en",
-    "github": "https://github.com/AhmedHossain09"
+    "github": "https://github.com/AhmedHossain09",
+    "twitter": "",
+    "websites": []
   },
   {
     "name": "Jinli Liu",
@@ -30,7 +34,9 @@
     "image": "",
     "description": "Jinli Liu is a Ph.D. Candidate in the Geographic Information Science Program in the Department of Geography & Environmental Studies at Texas State University, under the supervision of Dr. Das...",
     "googleScholar": "https://scholar.google.com/citations?user=ALyhPncAAAAJ&hl=zh-CN&oi=ao",
-    "github": ""
+    "github": "",
+    "twitter": "",
+    "websites": []
   },
   {
     "name": "David A Mills",
@@ -41,7 +47,9 @@
     "image": "",
     "description": "",
     "googleScholar": "",
-    "github": ""
+    "github": "",
+    "twitter": "",
+    "websites": []
   },
   {
     "name": "Shriyank Somvanshi",
@@ -52,7 +60,9 @@
     "image": "",
     "description": "Shriyank Somvanshi is a Ph.D. student and doctoral assistant at Texas State University. His research focuses on applying deep learning models...",
     "googleScholar": "https://scholar.google.com/citations?hl=en&user=JecpxeUAAAAJ",
-    "github": "https://github.com/shriyanksomvanshi"
+    "github": "https://github.com/shriyanksomvanshi",
+    "twitter": "",
+    "websites": []
   },
   {
     "name": "Mahmuda Sultana Mimi",
@@ -60,10 +70,12 @@
     "group": "Graduate Student",
     "linkedin": "https://www.linkedin.com/in/mahmuda-mimi",
     "email": "",
-    "image": "",
-    "description": "Mahmuda is currently pursuing a Master's in Civil Engineering at Texas State University under the supervision of Dr. Subasish Das...",
+    "image": "mimi.jpg",
+    "description": "Mahmuda is currently pursuing Master's in Civil Engineering at Texas State University under the supervision of Dr. Subasish Das. She joined AIT lab in Fall 2023 as a Graduate Research Assistant. Previously, she earned her Bachelor's degree in Urban and Regional Planning from Bangladesh University of Engineering and Technology (BUET). Her research focuses on transportation safety, encompassing vulnerable road users, driver behavior, and micromobility; as well as travel behavior and demand modeling. She is deeply engaged in developing Machine Learning, and Deep Learning based models; Statistical and Econometric models; GIS based spatial data analysis; and data mining in the field of transportation. In addition to her academic pursuits, she serves as the secretary of the ITE TXST chapter, where she supports initiatives to enhance transportation systems and promote safety.",
     "googleScholar": "https://scholar.google.com/citations?user=CUmpUkAAAAAJ&hl=en",
-    "github": "https://github.com/Mahmuda-mimi"
+    "github": "https://github.com/Mahmuda-mimi",
+    "twitter": "",
+    "websites": []
   },
   {
     "name": "Syed Aaqib Javed",
@@ -74,7 +86,9 @@
     "image": "",
     "description": "",
     "googleScholar": "",
-    "github": ""
+    "github": "",
+    "twitter": "",
+    "websites": []
   },
   {
     "name": "Rohit Chakraborty",
@@ -85,7 +99,9 @@
     "image": "",
     "description": "Rohit is currently a MS student in the Civil Engineering Program at Texas State University, advised by Dr. Das...",
     "googleScholar": "https://scholar.google.com/citations?user=Ip63NkMAAAAJ&hl=en",
-    "github": "https://github.com/Rohitck98"
+    "github": "https://github.com/Rohitck98",
+    "twitter": "",
+    "websites": []
   },
   {
     "name": "Swastika Barua",
@@ -93,10 +109,12 @@
     "group": "Graduate Student",
     "linkedin": "https://www.linkedin.com/in/swastika-barua/",
     "email": "",
-    "image": "",
-    "description": "Swastika Barua is pursuing her Master's in Civil Engineering at Texas State University, under the supervision of Dr. Subasish Das...",
+    "image": "swastika.jpg",
+    "description": "Swastika Barua is pursuing her Master's in Civil Engineering at Texas State University, under the supervision of Dr. Subasish Das. She joined the AIT Lab in Fall 2023 and currently working as a Graduate Research Assistant. Swastika obtained her Bachelor's degree from Bangladesh University of Engineering and Technology, Bangladesh. Her research focuses on traffic safety and driver behavior analysis, with a specialization in classical statistical methods and machine learning techniques. Beyond her academic endeavors, Swastika actively participates in the TXST-ITE student chapter, contributing to initiatives aimed at enhancing transportation systems and safety.",
     "googleScholar": "https://scholar.google.com/citations?user=FYy8Sj8AAAAJ&hl=en&oi=ao",
-    "github": "https://github.com/SwastikaBarua"
+    "github": "https://github.com/SwastikaBarua",
+    "twitter": "https://x.com/xatta_trone",
+    "websites": []
   },
   {
     "name": "Michael J Starewich",
@@ -107,7 +125,9 @@
     "image": "",
     "description": "",
     "googleScholar": "",
-    "github": ""
+    "github": "",
+    "twitter": "",
+    "websites": []
   },
   {
     "name": "Anannya Ghosh Tusti",
@@ -118,18 +138,27 @@
     "image": "",
     "description": "",
     "googleScholar": "",
-    "github": ""
+    "github": "",
+    "twitter": "",
+    "websites": []
   },
   {
     "name": "Md Monzurul Islam",
-    "label": "",
+    "label": "MS, Civil Engineering (Fall 2024 – Current)",
     "group": "Graduate Student",
-    "linkedin": "",
-    "email": "",
-    "image": "",
-    "description": "",
-    "googleScholar": "",
-    "github": ""
+    "linkedin": "https://www.linkedin.com/in/monzurul-islam/",
+    "email": "monzurul@txstate.edu",
+    "image": "monzurul.jpg",
+    "googleScholar": "https://scholar.google.com/citations?hl=en&user=edkjFpwAAAAJ",
+    "researchGate": "https://www.researchgate.net/profile/Md-Monzurul-Islam-2",
+    "orcid": "https://orcid.org/0000-0002-6096-7554",
+    "github": "https://github.com/xatta-trone",
+    "twitter": "https://x.com/xatta_trone",
+    "websites": [
+      "https://sites.google.com/view/monzurul-islam/home?authuser=0",
+      "https://xatta-trone.github.io/"
+    ],
+    "description": "Md Monzurul Islam is a Master's student in Civil Engineering (Transportation) at Texas State University, where he works as a Graduate Research Assistant under the supervision of Dr. Subasish Das. He brings a diverse academic and professional background, holding a Master's degree in Architecture from the University of Tokyo and a Bachelor's degree in Civil Engineering from Bangladesh University of Engineering and Technology. Monzurul's research focuses on transportation safety, crash risk assessment, and driver behavior analysis, utilizing machine learning, statistical models, and GIS-based spatial analysis. He is also proficient in building R-based tools for quick visualization and decision-making. In addition to his research, Monzurul has extensive experience in software development, project management, and structural engineering.As Vice President of Outreach for the Institute of Transportation Engineers (TXST Chapter), Monzurul develops and implements strategies for community engagement, builds relationships with external organizations, alumni, and potential sponsors, organizes promotional events, and manages outreach and recruitment efforts to attract new members. Monzurul also enjoys tinkering with a wide variety of tools and technologies, always curious to explore and experiment with everything he encounters—in his words, 'I like to play with everything.'"
   },
   {
     "name": "Sazzad Bin Bashar Polock",
@@ -140,7 +169,9 @@
     "image": "",
     "description": "",
     "googleScholar": "",
-    "github": ""
+    "github": "",
+    "twitter": "",
+    "websites": []
   },
   {
     "name": "Rawand Almadi",
@@ -151,7 +182,9 @@
     "image": "",
     "description": "",
     "googleScholar": "",
-    "github": ""
+    "github": "",
+    "twitter": "",
+    "websites": []
   },
   {
     "name": "Khaled Aly Abousabaa",
@@ -162,7 +195,9 @@
     "image": "",
     "description": "",
     "googleScholar": "",
-    "github": ""
+    "github": "",
+    "twitter": "",
+    "websites": []
   },
   {
     "name": "Darrell Anderson",
@@ -173,7 +208,9 @@
     "image": "",
     "description": "",
     "googleScholar": "",
-    "github": ""
+    "github": "",
+    "twitter": "",
+    "websites": []
   },
   {
     "name": "Dipesh Pandit",
@@ -184,7 +221,9 @@
     "image": "",
     "description": "",
     "googleScholar": "",
-    "github": ""
+    "github": "",
+    "twitter": "",
+    "websites": []
   },
   {
     "name": "Diwas Pandit",
@@ -195,7 +234,9 @@
     "image": "",
     "description": "",
     "googleScholar": "",
-    "github": ""
+    "github": "",
+    "twitter": "",
+    "websites": []
   },
   {
     "name": "Biplov Pandey",
@@ -206,10 +247,12 @@
     "image": "",
     "description": "Biplov is currently an undergraduate student in the Civil Engineering Program at Texas State University, guided by Dr. Das...",
     "googleScholar": "",
-    "github": ""
+    "github": "",
+    "twitter": "",
+    "websites": []
   },
   {
-    "name": "bluee Robison",
+    "name": "Bluee Robison",
     "label": "",
     "group": "",
     "linkedin": "",
@@ -217,6 +260,8 @@
     "image": "",
     "description": "",
     "googleScholar": "",
-    "github": ""
+    "github": "",
+    "twitter": "",
+    "websites": []
   }
 ]

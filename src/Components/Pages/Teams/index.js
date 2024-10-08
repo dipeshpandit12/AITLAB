@@ -1,121 +1,111 @@
 /** @format */
 
-import React from "react";
+import React, { useState } from "react";
 import {
   Box,
   Container,
-  Text,
-  SimpleGrid,
-  Image,
-  Link,
-  Stack,
-  Button,
-  Flex,
+  Grid,
+  GridItem,
   Heading,
+  Text,
 } from "@chakra-ui/react";
-import { FaGithub, FaLinkedin, FaGoogle } from "react-icons/fa";
-import teamData from "../../../data/team.json"; // Assume the JSON file is located here
+import TeamProfileCard from "./TeamProfileCard";
+import TeamProfileModal from "./TeamProfileModal";
+import teamData from "../../../data/team.json";
+import alumniData from "../../../data/alumni.json";
+import collaboratorsData from "../../../data/collaborator.json";
 
 const Team = () => {
-  // Group the team members by their "group" attribute
-  const groupedTeamMembers = teamData.reduce((acc, member) => {
-    if (!acc[member.group]) {
-      acc[member.group] = [];
-    }
-    acc[member.group].push(member);
-    return acc;
-  }, {});
+  const [selectedMember, setSelectedMember] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleShowMore = (member) => {
+    setSelectedMember(member);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedMember(null);
+  };
 
   return (
     <Box py={8}>
       <Container maxW="container.xl">
-        <Heading as="h1" size="2xl" mb={6} color="blue.600">
-          Current Team
-        </Heading>
+        {/* Current Team Section */}
+        <Grid templateColumns={{ base: "1fr", md: "1fr 2fr" }} gap={10} mb={12}>
+          <GridItem>
+            <Heading as="h1" size="2xl" mb={6} color="blue.600">
+              Current Team
+            </Heading>
+          </GridItem>
+          <GridItem>
+            {teamData.map((member, index) => (
+              <TeamProfileCard
+                key={index}
+                member={member}
+                onShowMore={handleShowMore}
+              />
+            ))}
+          </GridItem>
+        </Grid>
 
-        {/* Iterate over each group and display the team members */}
-        {Object.keys(groupedTeamMembers).map((group) => (
-          <Box key={group} mb={10}>
-            <Text fontSize="2xl" fontWeight="bold" mb={4} color="gray.700">
-              {group}
-            </Text>
-            <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={6}>
-              {groupedTeamMembers[group].map((member, index) => (
-                <Box
-                  key={index}
-                  p={5}
-                  shadow="md"
-                  borderWidth="1px"
-                  borderRadius="lg"
-                  bg="white"
-                >
-                  <Flex direction={{ base: "column", md: "row" }}>
-                    <Image
-                      src={member.image || "https://via.placeholder.com/150"}
-                      alt={member.name}
-                      boxSize="150px"
-                      objectFit="cover"
-                      borderRadius="full"
-                      mr={{ md: 6 }}
-                      mb={{ base: 4, md: 0 }}
-                    />
-                    <Stack spacing={3} flex="1">
-                      <Text fontSize="lg" fontWeight="bold" color="blue.800">
-                        {member.name}
-                      </Text>
-                      <Text fontSize="sm" color="gray.500">
-                        {member.label}
-                      </Text>
-                      <Text fontSize="sm" color="gray.600" noOfLines={3}>
-                        {member.description}
-                      </Text>
-                      <Box mt={3}>
-                        {member.github && (
-                          <Link
-                            href={member.github}
-                            isExternal
-                            mr={3}
-                            color="gray.700"
-                          >
-                            <FaGithub size="20px" />
-                          </Link>
-                        )}
-                        {member.linkedin && (
-                          <Link
-                            href={member.linkedin}
-                            isExternal
-                            mr={3}
-                            color="gray.700"
-                          >
-                            <FaLinkedin size="20px" />
-                          </Link>
-                        )}
-                        {member.googleScholar && (
-                          <Link
-                            href={member.googleScholar}
-                            isExternal
-                            mr={3}
-                            color="gray.700"
-                          >
-                            <FaGoogle size="20px" />
-                          </Link>
-                        )}
-                      </Box>
-                      <Button
-                        mt={2}
-                        variant="link"
-                        color="blue.500"
-                        _hover={{ textDecoration: "underline" }}
-                      >
-                        Show more
-                      </Button>
-                    </Stack>
-                  </Flex>
-                </Box>
-              ))}
-            </SimpleGrid>
-          </Box>
-        ))}
+        {/* Collaborators Section */}
+        <Grid templateColumns={{ base: "1fr", md: "1fr 2fr" }} gap={10} mb={12}>
+          <GridItem>
+            <Heading as="h1" size="2xl" mb={6} color="blue.600">
+              Collaborators
+            </Heading>
+          </GridItem>
+          <GridItem>
+            {collaboratorsData.map((member, index) => (
+              <TeamProfileCard
+                key={index}
+                member={member}
+                onShowMore={handleShowMore}
+              />
+            ))}
+          </GridItem>
+        </Grid>
+
+        {/* Alumni Section with Grid Layout */}
+        <Grid templateColumns={{ base: "1fr", md: "1fr 2fr" }} gap={10} mb={12}>
+          <GridItem>
+            <Heading as="h1" size="2xl" mb={6} color="blue.600">
+              Alumni
+            </Heading>
+          </GridItem>
+          <GridItem>
+            {alumniData.map((alumni, index) => (
+              <Box
+                key={index}
+                borderBottom="1px solid"
+                borderColor="gray.200"
+                pb={2}
+                pt={2}
+              >
+                <Text fontWeight="bold" fontSize="lg" color="gray.600">
+                  {alumni.name}
+                  <Text as="span" fontWeight="300" color="gray.500">
+                    {" "}
+                    - {alumni.label}
+                    {alumni.subject.length > 0 && `, ${alumni.subject}`}
+                    {alumni.duration.length > 0 && ` (${alumni.duration})`}
+                  </Text>
+                </Text>
+              </Box>
+            ))}
+          </GridItem>
+        </Grid>
+
+        {/* Modal */}
+        {selectedMember && (
+          <TeamProfileModal
+            isOpen={isModalOpen}
+            onClose={handleCloseModal}
+            member={selectedMember}
+          />
+        )}
       </Container>
     </Box>
   );
