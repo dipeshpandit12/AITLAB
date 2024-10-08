@@ -25,7 +25,6 @@ const ResearchPapers = () => {
   const [searching, setSearching] = useState(false); // State for showing searching animation
   const [searchTerm, setSearchTerm] = useState("");
   const [sortByYear, setSortByYear] = useState("");
-  const [sortByCitation, setSortByCitation] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [isPageChanging, setIsPageChanging] = useState(false); // State for showing spinner during pagination
   const [isSorting, setIsSorting] = useState(false); // State for showing spinner when sorting
@@ -56,7 +55,6 @@ const ResearchPapers = () => {
     const searchParams = new URLSearchParams(location.search);
     setSearchTerm(searchParams.get("search") || "");
     setSortByYear(searchParams.get("year") || "");
-    setSortByCitation(searchParams.get("citations") || "");
     setCurrentPage(parseInt(searchParams.get("page")) || 1);
   }, [location.search]);
 
@@ -86,11 +84,11 @@ const ResearchPapers = () => {
 
       // Set new debounce timeout
       searchTimeoutRef.current = setTimeout(() => {
-        updateURL(searchQuery, sortByYear, sortByCitation, 1);
+        updateURL(searchQuery, sortByYear, 1);
         setSearching(false);
       }, 500); // 500ms debounce
     },
-    [sortByYear, sortByCitation]
+    [sortByYear]
   );
 
   // Updated filtering logic for searching by title and author
@@ -114,20 +112,11 @@ const ResearchPapers = () => {
       );
     }
 
-    // Sort by citations
-    if (sortByCitation) {
-      tempPapers = tempPapers.sort((a, b) =>
-        sortByCitation === "asc"
-          ? parseInt(a.total_citations) - parseInt(b.total_citations)
-          : parseInt(b.total_citations) - parseInt(a.total_citations)
-      );
-    }
-
     setFilteredPapers(tempPapers);
     // Reset the sorting and page-changing states after filtering
     setIsSorting(false);
     setIsPageChanging(false);
-  }, [papers, searchTerm, sortByYear, sortByCitation]);
+  }, [papers, searchTerm, sortByYear]);
 
   // Pagination Logic
   const indexOfLastPaper = currentPage * papersPerPage;
@@ -139,11 +128,10 @@ const ResearchPapers = () => {
   const totalPages = Math.ceil(filteredPapers.length / papersPerPage);
 
   const updateURL = useCallback(
-    (search, year, citations, page) => {
+    (search, year, page) => {
       const searchParams = new URLSearchParams();
       if (search) searchParams.set("search", search);
       if (year) searchParams.set("year", year);
-      if (citations) searchParams.set("citations", citations);
       if (page) searchParams.set("page", page);
       navigate(`?${searchParams.toString()}`);
     },
@@ -153,13 +141,7 @@ const ResearchPapers = () => {
   const handleSortYearChange = (e) => {
     setIsSorting(true); // Show spinner while sorting
     setSortByYear(e.target.value);
-    updateURL(searchTerm, e.target.value, sortByCitation, 1);
-  };
-
-  const handleSortCitationChange = (e) => {
-    setIsSorting(true); // Show spinner while sorting
-    setSortByCitation(e.target.value);
-    updateURL(searchTerm, sortByYear, e.target.value, 1);
+    updateURL(searchTerm, e.target.value, 1);
   };
 
   // Scroll the whole viewport to the top when changing pages or sorting
@@ -173,7 +155,7 @@ const ResearchPapers = () => {
       setTimeout(() => {
         const newPage = currentPage + 1;
         setCurrentPage(newPage); // Update the page after delay
-        updateURL(searchTerm, sortByYear, sortByCitation, newPage);
+        updateURL(searchTerm, sortByYear, newPage);
         scrollToTop();
         setIsPageChanging(false); // Hide spinner after content is loaded
       }, 500); // 500ms delay to simulate loading
@@ -186,7 +168,7 @@ const ResearchPapers = () => {
       setTimeout(() => {
         const newPage = currentPage - 1;
         setCurrentPage(newPage); // Update the page after delay
-        updateURL(searchTerm, sortByYear, sortByCitation, newPage);
+        updateURL(searchTerm, sortByYear, newPage);
         scrollToTop();
         setIsPageChanging(false); // Hide spinner after content is loaded
       }, 500); // 500ms delay to simulate loading
@@ -241,21 +223,6 @@ const ResearchPapers = () => {
             </option>
             <option value="desc" style={{ color: "black" }}>
               Newest First
-            </option>
-          </Select>
-          <Select
-            placeholder="Sort by Citations"
-            value={sortByCitation}
-            onChange={handleSortCitationChange}
-            bg="white"
-            borderColor="gray.300"
-            color="gray.700"
-          >
-            <option value="asc" style={{ color: "black" }}>
-              Fewest Citations
-            </option>
-            <option value="desc" style={{ color: "black" }}>
-              Most Citations
             </option>
           </Select>
         </Stack>
