@@ -59,7 +59,7 @@ const Talk = () => {
               </Flex>
 
               {/* Content and optional link */}
-              <Text color="gray.700" fontSize="md">
+              <Text color="gray.700" fontSize="lg">
                 {talk.link ? (
                   <LinkOverlay href={talk.link} isExternal>
                     {talk.content} <ExternalLinkIcon mx="2px" />
