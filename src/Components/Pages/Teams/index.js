@@ -9,11 +9,25 @@ import {
   Heading,
   Text,
 } from "@chakra-ui/react";
+import { motion } from "framer-motion"; // Import framer-motion
 import TeamProfileCard from "./TeamProfileCard";
 import TeamProfileModal from "./TeamProfileModal";
 import teamData from "../../../data/team.json";
 import alumniData from "../../../data/alumni.json";
 import collaboratorsData from "../../../data/collaborator.json";
+
+// Motion wrapper for Chakra UI Box
+const MotionGridItem = motion(GridItem);
+
+// Animation variant for staggered slide-in effect
+const cardVariants = {
+  hidden: { opacity: 0, x: 100 }, // Start off-screen (right)
+  visible: (i) => ({
+    opacity: 1,
+    x: 0,
+    transition: { delay: i * 0.2, duration: 0.6 }, // Delay each card for stagger effect
+  }),
+};
 
 const Team = () => {
   const [selectedMember, setSelectedMember] = useState(null);
@@ -41,11 +55,15 @@ const Team = () => {
           </GridItem>
           <GridItem>
             {teamData.map((member, index) => (
-              <TeamProfileCard
+              <MotionGridItem
                 key={index}
-                member={member}
-                onShowMore={handleShowMore}
-              />
+                custom={index} // Custom index for staggered effect
+                initial="hidden"
+                animate="visible"
+                variants={cardVariants}
+              >
+                <TeamProfileCard member={member} onShowMore={handleShowMore} />
+              </MotionGridItem>
             ))}
           </GridItem>
         </Grid>
@@ -59,11 +77,15 @@ const Team = () => {
           </GridItem>
           <GridItem>
             {collaboratorsData.map((member, index) => (
-              <TeamProfileCard
+              <MotionGridItem
                 key={index}
-                member={member}
-                onShowMore={handleShowMore}
-              />
+                custom={index}
+                initial="hidden"
+                animate="visible"
+                variants={cardVariants}
+              >
+                <TeamProfileCard member={member} onShowMore={handleShowMore} />
+              </MotionGridItem>
             ))}
           </GridItem>
         </Grid>
