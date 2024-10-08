@@ -1,6 +1,6 @@
 /** @format */
 import React from "react";
-import { Box, Text, Stack, Image, Link } from "@chakra-ui/react";
+import { Box, Text, Stack, Link } from "@chakra-ui/react";
 
 const ResearchPaperItem = ({ title, total_citations, year, url }) => {
   return (
@@ -9,24 +9,29 @@ const ResearchPaperItem = ({ title, total_citations, year, url }) => {
       shadow="md"
       borderWidth="1px"
       borderRadius="md"
-      bg="white" // Light mode background
+      bg="white"
       _hover={{ shadow: "lg", transform: "translateY(-10px)" }} // Hover effect for the card
       transition="all 0.3s ease"
-      height="100%" // Ensure card fills height in grid
+      height="100%"
       display="flex"
       flexDirection="column"
-      justifyContent="space-between" // Push content to the top and bottom
+      justifyContent="space-between"
     >
-      {/* Card Image Placeholder */}
-      <Box overflow="hidden" borderRadius="md">
-        <Image
-          src="/img/research-default.jpg" // Placeholder image
-          alt="Research Paper Thumbnail"
-          width="100%"
-          height="200px"
-          objectFit="cover"
+      {/* Image Container */}
+      <Box
+        overflow="hidden"
+        borderRadius="md"
+        height="200px"
+        position="relative"
+      >
+        {/* Background Image with zoom effect */}
+        <Box
+          height="100%"
+          backgroundImage="url('/img/research-default.jpg')" // Image path
+          backgroundSize="cover"
+          backgroundPosition="center"
           transition="transform 0.3s ease"
-          _hover={{ transform: "scale(1.05)" }} // Hover transition effect
+          _hover={{ transform: "scale(1.1)" }} // Apply zoom effect on image hover only
         />
       </Box>
 
@@ -44,7 +49,7 @@ const ResearchPaperItem = ({ title, total_citations, year, url }) => {
         </Link>
       </Stack>
 
-      {/* Citations and Year in one line */}
+      {/* Citations and Year */}
       <Stack
         direction="row"
         justifyContent="space-between"
@@ -54,7 +59,7 @@ const ResearchPaperItem = ({ title, total_citations, year, url }) => {
         borderColor="gray.200"
       >
         <Text fontSize="sm" color="gray.600">
-          Citations: {total_citations || "N/A"}
+          Citations: {total_citations || 0}
         </Text>
         <Text fontSize="sm" color="gray.600">
           Year: {year}
