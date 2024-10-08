@@ -7,7 +7,6 @@ import { useState } from "react";
 export default function Teams() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedAlumniData, setSelectedAlumniData] = useState(null);
-
   return (
     <Box px={{ lg: "5rem", xl: "5rem" }} py={{ lg: "3rem", xl: "3rem" }}>
       {/* ------------------------For Current Members------------------------------ */}
@@ -61,7 +60,6 @@ export default function Teams() {
                     setIsModalOpen(true);
                   }} // Set state to open the modal
                   variant="link"
-                  size="sm"
                   color="teal"
                   pt="1rem"
                 >

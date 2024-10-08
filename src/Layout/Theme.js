@@ -101,10 +101,12 @@ export default extendTheme({
             cursor: "pointer",
             color: "primary",
           },
+          size: "sm",
+          textTransform: "none",
         },
       },
       defaultProps: {
-        size: "md",
+        size: "sm",
         variant: "outline",
       },
     },

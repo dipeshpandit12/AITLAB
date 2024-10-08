@@ -12,8 +12,9 @@ import {
   Icon,
 } from "@chakra-ui/react";
 import Modal_Page from "./Modal_Page";
-import { FaGithub, FaLinkedin, FaGlobe } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaGlobe,FaTwitter } from "react-icons/fa";
 import { SiGooglescholar } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 
 export default function ProfileCard({ data }) {
   const iconMap = {
@@ -21,6 +22,8 @@ export default function ProfileCard({ data }) {
     linkedin: FaLinkedin,
     website: FaGlobe,
     googlescholar: SiGooglescholar,
+    email: MdEmail,
+    twitter: FaTwitter,
   };
   // Centralized color mapping
   const colorMap = {
@@ -28,6 +31,8 @@ export default function ProfileCard({ data }) {
     linkedin: "#0e76a8",
     website: "#1a202c",
     googlescholar:"#333",
+    email: "#EA4335",
+    twitter: "#1DA1F2"
   };
 
   const [profilePicture, setProfilePicture] = useState(data.profilePicture);
@@ -100,7 +105,9 @@ export default function ProfileCard({ data }) {
                   const iconColor = colorMap[link.icon];
 
                   return (
-                    <Link href={link.href} isExternal key={index}>
+                    <Link href={link.icon.toLowerCase() === 'email' ? `mailto:${link.href}` : link.href}
+                    isExternal={link.icon.toLowerCase() !== 'email'}
+                    key={index}>
                       <Icon
                         boxSize="1rem"
                         as={IconComponent}
@@ -116,7 +123,6 @@ export default function ProfileCard({ data }) {
             <Button
               onClick={() => setIsModalOpen(true)} // Set state to open the modal
               variant="link"
-              size="sm"
               color="teal"
               pt="1rem"
             >
