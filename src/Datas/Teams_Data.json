@@ -222,44 +222,23 @@
     ]
   },
   {
-    "name": "Ghosh Tusti",
-    "profilePicture": "GhoshTusti",
+    "name": "Anannya Ghosh Tusti",
+    "profilePicture": "AnannyaGhoshTusti",
     "status": "current",
-    "label": "",
-    "description": "Rohit is currently a MS student in the Civil Engineering Program at Texas State University, advised by Dr. Das. He joined the AIT Lab in Fall 2023 and works as a graduate research assistant. Previously, Rohit completed his B.S. in Civil Engineering from Ahsanullah University of Science and Technology, Bangladesh. Rohit is interested in data mining applications in transportation safety and operations. His research expertise also includes traffic simulation, transportation modeling, and driving behavior analysis. Rohit enjoys cooking, cycling, and listening music.",
+    "label": "MS, Civil Engineering",
+    "description": "Anannya has completed her bachelor's degree from Bangladesh University of Engineering and Technology (BUET) in 2023. As a Research Assistant at BUET, she utilized spatial and statistical analysis expertise on some impactful projects in Bangladesh. She is currently pursuing her master's at Texas State University as a Graduate Research Assistant in the Artificial Intelligence in Transportation Lab. Anannya's research in AIT Lab is focused on transportation safety, crash risk assessment, and driver behavior analysis through machine learning and GIS-based techniques. As Project Coordinator in the Institute of Transportation Engineers (ITE) at Texas State University, Anannya Ghosh Tusti leads the planning and implementation of specific projects, coordinating teams, schedules, and resources to meet objectives, while monitoring progress, addressing issues, and reporting status updates to the executive team and members. Beyond her academic pursuits, Anannya is passionate about community service, actively volunteering with the Lions Club of Dhaka Rose Garden. In her free time, she loves to paint and listen to music, having practiced classical music for many years, which nurtured a profound appreciation for its cultural significance. An environmental enthusiast at heart, she is dedicated to integrating sustainability into her work, aiming to create a lasting, positive impact on the world..",
     "links": [
       {
         "icon": "github",
-        "href": "https://github.com/Rohitck98"
+        "href": "https://github.com/Anannya-Ghosh"
       },
       {
         "icon": "linkedin",
-        "href": "https://www.linkedin.com/in/rohit-chakraborty-052579163/"
+        "href": "https://www.linkedin.com/in/anannyaghoshtusti"
       },
       {
-        "icon": "website",
-        "href": "https://scholar.google.com/citations?user=Ip63NkMAAAAJ&hl=en"
-      }
-    ]
-  },
-  {
-    "name": "Anannya Islam",
-    "profilePicture": "AnannyaIslam",
-    "status": "current",
-    "label": "MS, Civil Engineering (2023 – 2025)",
-    "description": "Rohit is currently a MS student in the Civil Engineering Program at Texas State University, advised by Dr. Das. He joined the AIT Lab in Fall 2023 and works as a graduate research assistant. Previously, Rohit completed his B.S. in Civil Engineering from Ahsanullah University of Science and Technology, Bangladesh. Rohit is interested in data mining applications in transportation safety and operations. His research expertise also includes traffic simulation, transportation modeling, and driving behavior analysis. Rohit enjoys cooking, cycling, and listening music.",
-    "links": [
-      {
-        "icon": "github",
-        "href": "https://github.com/Rohitck98"
-      },
-      {
-        "icon": "linkedin",
-        "href": "https://www.linkedin.com/in/rohit-chakraborty-052579163/"
-      },
-      {
-        "icon": "website",
-        "href": "https://scholar.google.com/citations?user=Ip63NkMAAAAJ&hl=en"
+        "icon": "email",
+        "href": "gpk30@txstate.edu"
       }
     ]
   },
@@ -344,23 +323,15 @@
     ]
   },
   {
-    "name": "Anderson Darrell",
-    "profilePicture": "AndersonDarrell",
+    "name": "Darrell M. Anderson",
+    "profilePicture": "DarrellM.Anderson",
     "status": "current",
-    "label": "MS, Civil Engineering (2023 – 2025)",
-    "description": "Rohit is currently a MS student in the Civil Engineering Program at Texas State University, advised by Dr. Das. He joined the AIT Lab in Fall 2023 and works as a graduate research assistant. Previously, Rohit completed his B.S. in Civil Engineering from Ahsanullah University of Science and Technology, Bangladesh. Rohit is interested in data mining applications in transportation safety and operations. His research expertise also includes traffic simulation, transportation modeling, and driving behavior analysis. Rohit enjoys cooking, cycling, and listening music.",
+    "label": "Bachelor of Science – Civil Engineering w/ a minor in Mathematics",
+    "description": "Currently, Darrell is a senior at Texas State University, majoring in Civil Engineering (CE) and minoring in mathematics. In the summer of 2023, Darrell started working as an undergraduate research assistant at the Artificial Intelligence in Transportation (AIT) lab under Dr. Das Subasish. While at AIT, Darrell was awarded the Dwight David Eisenhower Transportation Fellowship (DDETFP), which he presented at DC on the concept of 15-minute cities. As a member of a few engineering and environmental groups, Darrell is passionate about the environment and water resources, and he is interested in the impact that urbanization, along with the increase in traffic systems, has on the environment. As a civil drafter/designer for a small urban planning and development company, he has helped design many sites currently under development. As a founding member of the Institute of Transportation Engineers – at Texas State University, he holds the treasurer position. In his free time, he enjoys cooking, baking, and reading and is working towards becoming a sommelier in his free time.",
     "links": [
       {
-        "icon": "github",
-        "href": "https://github.com/Rohitck98"
-      },
-      {
         "icon": "linkedin",
-        "href": "https://www.linkedin.com/in/rohit-chakraborty-052579163/"
-      },
-      {
-        "icon": "website",
-        "href": "https://scholar.google.com/citations?user=Ip63NkMAAAAJ&hl=en"
+        "href": "https://www.linkedin.com/in/darrell-m-anderson"
       }
     ]
   },
