@@ -107,7 +107,7 @@ const TeamProfileCard = ({ member, onShowMore }) => {
                   transition: "all 0.2s ease",
                 }}
               >
-                <FaEnvelope size="20px" />
+                <FaEnvelope size="22px" />
               </Link>
             )}
             {member.linkedin && (
@@ -121,7 +121,7 @@ const TeamProfileCard = ({ member, onShowMore }) => {
                   transition: "all 0.2s ease",
                 }}
               >
-                <FaLinkedin size="20px" color="#0e76a8" />
+                <FaLinkedin size="22px" color="#0e76a8" />
               </Link>
             )}
             {member.github && (
@@ -135,7 +135,7 @@ const TeamProfileCard = ({ member, onShowMore }) => {
                   transition: "all 0.2s ease",
                 }}
               >
-                <FaGithub size="20px" color="#333" />
+                <FaGithub size="22px" color="#333" />
               </Link>
             )}
             {member.googleScholar && (
@@ -149,7 +149,7 @@ const TeamProfileCard = ({ member, onShowMore }) => {
                   transition: "all 0.2s ease",
                 }}
               >
-                <SiGooglescholar size="20px" />
+                <SiGooglescholar size="22px" />
               </Link>
             )}
             {member.researchGate && (
@@ -163,7 +163,7 @@ const TeamProfileCard = ({ member, onShowMore }) => {
                   transition: "all 0.2s ease",
                 }}
               >
-                <FaResearchgate size="20px" color="#00ccbb" />
+                <FaResearchgate size="22px" color="#00ccbb" />
               </Link>
             )}
             {member.orcid && (
@@ -177,7 +177,7 @@ const TeamProfileCard = ({ member, onShowMore }) => {
                   transition: "all 0.2s ease",
                 }}
               >
-                <FaOrcid size="20px" color="#A7CF36" />
+                <FaOrcid size="22px" color="#A7CF36" />
               </Link>
             )}
             {member.twitter && (
@@ -191,7 +191,7 @@ const TeamProfileCard = ({ member, onShowMore }) => {
                   transition: "all 0.2s ease",
                 }}
               >
-                <FaTwitter size="20px" color="#1DA1F2" />
+                <FaTwitter size="22px" color="#1DA1F2" />
               </Link>
             )}
             {member.websites &&
@@ -208,7 +208,7 @@ const TeamProfileCard = ({ member, onShowMore }) => {
                     transition: "all 0.2s ease",
                   }}
                 >
-                  <FaGlobe size="20px" />
+                  <FaGlobe size="22px" />
                 </Link>
               ))}
           </HStack>
