@@ -281,44 +281,28 @@
     ]
   },
   {
-    "name": "Almadi Rawand",
-    "profilePicture": "AlmadiRawand",
+    "name": "Rawand Almadi",
+    "profilePicture": "RawandAlmadi",
     "status": "current",
-    "label": "MS, Civil Engineering (2023 – 2025)",
-    "description": "Rohit is currently a MS student in the Civil Engineering Program at Texas State University, advised by Dr. Das. He joined the AIT Lab in Fall 2023 and works as a graduate research assistant. Previously, Rohit completed his B.S. in Civil Engineering from Ahsanullah University of Science and Technology, Bangladesh. Rohit is interested in data mining applications in transportation safety and operations. His research expertise also includes traffic simulation, transportation modeling, and driving behavior analysis. Rohit enjoys cooking, cycling, and listening music.",
+    "label": "MS, Civil Engineering (Transportation)- 2023",
+    "description": "Rawand Almadi is a Master's student in Civil Engineering (Transportation) at Texas State University, working under the guidance of Dr. Subasish Das. Currently working as a graduate instructional assistant at the Ingram School of Engineering. She joined the Artificial Intelligence in Transportation (AIT) lab in Fall 2024.  He earned his bachelor's degree in civil engineering from TXST in 2023.",
     "links": [
       {
-        "icon": "github",
-        "href": "https://github.com/Rohitck98"
-      },
-      {
-        "icon": "linkedin",
-        "href": "https://www.linkedin.com/in/rohit-chakraborty-052579163/"
-      },
-      {
-        "icon": "website",
-        "href": "https://scholar.google.com/citations?user=Ip63NkMAAAAJ&hl=en"
+        "icon": "email",
+        "href": "rfa20@txstate.edu"
       }
     ]
   },
   {
-    "name": "Abousabaa Khaled Aly",
-    "profilePicture": "AbousabaaKhaledAly",
+    "name": "Khaled Abou-Sabaa",
+    "profilePicture": "KhaledAbou-Sabaa",
     "status": "current",
-    "label": "MS, Civil Engineering (2023 – 2025)",
-    "description": "Rohit is currently a MS student in the Civil Engineering Program at Texas State University, advised by Dr. Das. He joined the AIT Lab in Fall 2023 and works as a graduate research assistant. Previously, Rohit completed his B.S. in Civil Engineering from Ahsanullah University of Science and Technology, Bangladesh. Rohit is interested in data mining applications in transportation safety and operations. His research expertise also includes traffic simulation, transportation modeling, and driving behavior analysis. Rohit enjoys cooking, cycling, and listening music.",
+    "label": "BS, Civil Engineering",
+    "description": "Khaled Abou-Sabaa is a senior at Texas State University, pursuing a B.S. degree in Civil Engineering (CE). Since joining the AIT Lab in Fall 2023, he has demonstrated a keen passion for transportation engineering. Khaled's work focuses primarily on conducting systematic literature reviews for various research projects, where he analyzes and synthesizes academic and industry sources to provide a solid foundation for ongoing studies. His dedication to the field and attention to detail are evident through his contributions to research aimed at improving transportation systems.",
     "links": [
       {
-        "icon": "github",
-        "href": "https://github.com/Rohitck98"
-      },
-      {
         "icon": "linkedin",
-        "href": "https://www.linkedin.com/in/rohit-chakraborty-052579163/"
-      },
-      {
-        "icon": "website",
-        "href": "https://scholar.google.com/citations?user=Ip63NkMAAAAJ&hl=en"
+        "href": "https://www.linkedin.com/in/kabousabaa-210432129/"
       }
     ]
   },
