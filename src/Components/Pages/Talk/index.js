@@ -11,7 +11,6 @@ import {
   LinkOverlay,
   Stack,
   Flex,
-  Icon,
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons"; // Import the external link icon
 import talksData from "../../../data/talk.json"; // Assuming talks.json is located here
