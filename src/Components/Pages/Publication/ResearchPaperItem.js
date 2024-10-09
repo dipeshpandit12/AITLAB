@@ -2,7 +2,17 @@
 import React from "react";
 import { Box, Text, Stack, Link } from "@chakra-ui/react";
 
-const ResearchPaperItem = ({ title, total_citations, year, url }) => {
+const ResearchPaperItem = ({
+  title,
+  total_citations,
+  year,
+  url,
+  journal,
+  publisher,
+  source,
+  issue,
+  book,
+}) => {
   return (
     <Box
       p={3}
@@ -47,6 +57,18 @@ const ResearchPaperItem = ({ title, total_citations, year, url }) => {
             {title}
           </Text>
         </Link>
+        <Text fontSize="md" color="gray.700">
+          {journal
+            ? `${journal}`
+            : source
+            ? `${source}`
+            : issue
+            ? `${issue}`
+            : book
+            ? `${book}`
+            : ""}{" "}
+          {publisher ? `(${publisher})` : ""}
+        </Text>
       </Stack>
 
       {/* Citations and Year */}

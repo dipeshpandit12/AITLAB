@@ -8,7 +8,7 @@ export default extendTheme({
     body: "'Roboto', sans-serif", // Font for body text
   },
   colors: {
-    primary: "blue", // Golden color for primary elements
+    primary: "#2B6CB0", // Golden color for primary elements
     background: "#1A202C", // Dark background
     text: "#1A202C", // Light text color for dark mode
   },
@@ -17,7 +17,7 @@ export default extendTheme({
       baseStyle: {
         fontFamily: "heading",
         fontWeight: "bold",
-        color: "primary", // Golden color for headings
+        color: "gray.600", // Golden color for headings
       },
     },
     Text: {
@@ -44,10 +44,10 @@ export default extendTheme({
       variants: {
         solid: {
           bg: "primary",
-          color: "background",
+          color: "white",
           _hover: {
-            bg: "text",
-            color: "primary",
+            bg: "primary.500",
+            color: "white",
           },
         },
         outline: {

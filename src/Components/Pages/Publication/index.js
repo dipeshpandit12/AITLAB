@@ -256,6 +256,11 @@ const ResearchPapers = () => {
                         total_citations={paper.total_citations}
                         year={paper.year}
                         url={paper.url}
+                        journal={paper.journal}
+                        publisher={paper.publisher}
+                        source={paper.source}
+                        issue={paper.issue}
+                        book={paper.book}
                       />
                     </motion.div>
                   ))}
