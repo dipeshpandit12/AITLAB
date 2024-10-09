@@ -90,7 +90,7 @@ const Openings = () => {
           <Button
             size="lg"
             colorScheme="blue"
-            variant="outline"
+            variant="solid"
             _hover={{ bg: "blue.500", color: "white" }}
           >
             Download PDF

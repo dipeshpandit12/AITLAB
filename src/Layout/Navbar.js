@@ -24,7 +24,7 @@ function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <Box bg="blue.500" w="100%">
+    <Box bg="blue.600" w="100%">
       {/* Container to constrain content within container.xl */}
       <Container maxW="container.xl">
         <Flex h={16} alignItems="center" justifyContent="space-between">
