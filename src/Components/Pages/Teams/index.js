@@ -14,7 +14,7 @@ import TeamProfileCard from "./TeamProfileCard";
 import TeamProfileModal from "./TeamProfileModal";
 import teamData from "../../../data/team.json";
 import alumniData from "../../../data/alumni.json";
-import collaboratorsData from "../../../data/collaborator.json";
+import fellowData from "../../../data/fellow.json";
 
 // Motion wrapper for Chakra UI Box
 const MotionGridItem = motion(GridItem);
@@ -68,15 +68,15 @@ const Team = () => {
           </GridItem>
         </Grid>
 
-        {/* Collaborators Section */}
+        {/* Fellows Section */}
         <Grid templateColumns={{ base: "1fr", md: "1fr 2fr" }} gap={10} mb={12}>
           <GridItem>
             <Heading as="h1" size="2xl" mb={6} color="blue.600">
-              Collaborators
+              Fellows
             </Heading>
           </GridItem>
           <GridItem>
-            {collaboratorsData.map((member, index) => (
+            {fellowData.map((member, index) => (
               <MotionGridItem
                 key={index}
                 custom={index}
