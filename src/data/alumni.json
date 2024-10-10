@@ -1,277 +1,259 @@
 [
   {
-    "name": "Dr. Md. Nasim Khan",
-    "label": "Post-Doctoral Researcher",
-    "subject": "",
-    "duration": "2022-2024"
-  },
-  {
-    "name": "Soheil Sohrabi",
-    "label": "Post-Doctoral Researcher",
-    "subject": "",
-    "duration": "2021-2022"
-  },
-  {
-    "name": "Amir Hossein Oliaee",
-    "label": "PhD Student",
-    "subject": "Architecture, TAMU",
-    "duration": "2022"
-  },
-  {
     "name": "Nuzhat Kabir",
-    "label": "PhD Student",
+    "label": "Ph.D. Candidate",
     "subject": "Civil Engineering, TAMU",
     "duration": "2022"
   },
   {
     "name": "Musfira Rahman",
-    "label": "PhD Student",
+    "label": "Ph.D. Candidate",
     "subject": "Civil Engineering, TAMU",
     "duration": "2021"
   },
   {
     "name": "Yanmo Wang",
-    "label": "PhD Student",
+    "label": "Ph.D. Candidate",
     "subject": "Civil Engineering, TAMU",
     "duration": "2021-2022"
   },
   {
     "name": "Zihang Wei",
-    "label": "PhD Student",
+    "label": "Ph.D. Candidate",
     "subject": "Civil Engineering, TAMU",
     "duration": "2020-2022"
   },
   {
     "name": "Ali Khodadadi",
-    "label": "PhD Student",
+    "label": "Ph.D. Candidate",
     "subject": "Civil Engineering, TAMU",
     "duration": "2019-2021"
   },
   {
     "name": "Shruti Ashraf",
-    "label": "PhD Student",
+    "label": "Ph.D. Candidate",
     "subject": "Civil Engineering, TAMU",
     "duration": "2018-2019"
   },
   {
     "name": "Chaolun Ma",
-    "label": "PhD Student",
+    "label": "Ph.D. Candidate",
     "subject": "Civil Engineering, TAMU",
     "duration": "2018-2019"
   },
   {
     "name": "Songjukta Datta",
-    "label": "PhD Student",
+    "label": "Ph.D. Candidate",
     "subject": "Civil Engineering, TAMU",
     "duration": "2017-2018"
   },
   {
     "name": "Vikram Agarwal",
-    "label": "M.S. Student",
+    "label": "M.Sc.",
     "subject": "Civil Engineering, TAMU",
     "duration": "2020-2021"
   },
   {
     "name": "Ruihong Wang",
-    "label": "M.S. Student",
+    "label": "M.Sc.",
     "subject": "Electrical and Computer Engineering, TAMU",
     "duration": "2019-2020"
   },
   {
     "name": "Nabila Nazneen",
-    "label": "M.S. Student",
+    "label": "M.Sc.",
     "subject": "Chemical Engineering, TAMU",
     "duration": "2019-2020"
   },
   {
     "name": "Samia Tasnim",
-    "label": "M.S. Student",
+    "label": "M.Sc.",
     "subject": "Public Health, TAMU",
     "duration": "2018-2019"
   },
   {
     "name": "Nusrat Trisha",
-    "label": "M.S. Student",
+    "label": "M.Sc.",
     "subject": "Public Health, TAMU",
     "duration": "2019-2021"
   },
   {
     "name": "Tahmida Shimu",
-    "label": "M.S. Student",
+    "label": "M.Sc.",
     "subject": "Civil Engineering, TAMU",
     "duration": "2018-2019"
   },
   {
     "name": "Bita Maraghehpour",
-    "label": "M.S. Student",
+    "label": "M.Sc.",
     "subject": "Public Health, TAMU",
     "duration": "2017-2019"
   },
   {
     "name": "Apoorba Bibeka",
-    "label": "M.S. Student",
+    "label": "M.Sc.",
     "subject": "Civil Engineering, TAMU",
     "duration": "2016-2019"
   },
   {
     "name": "Yucong Du",
-    "label": "M.S. Student",
+    "label": "M.Sc.",
     "subject": "Civil Engineering, TAMU",
     "duration": "2016-2017"
   },
   {
     "name": "Sadia Najneen",
-    "label": "M.S. Student",
+    "label": "M.Sc.",
     "subject": "Public Health, TAMU",
     "duration": "2018-2019"
   },
   {
     "name": "Isha Narsaria",
-    "label": "M.S. Student",
+    "label": "M.Sc.",
     "subject": "Civil Engineering, TAMU",
     "duration": "2018-2019"
   },
   {
     "name": "Noor-A Nazia",
-    "label": "M.S. Student",
+    "label": "M.Sc.",
     "subject": "Computer Science, TAMI",
     "duration": "2018-2019"
   },
   {
     "name": "Condor Manaswini",
-    "label": "M.S. Student",
+    "label": "M.Sc.",
     "subject": "Civil Engineering, TAMU",
     "duration": "2018-2019"
   },
   {
     "name": "Alence Poudel",
-    "label": "M.S. Student",
+    "label": "M.Sc.",
     "subject": "Civil Engineering, TAMU",
     "duration": "2018-2019"
   },
   {
     "name": "Bharadwaj Bommanayakanahalli",
-    "label": "M.S. Student",
+    "label": "M.Sc.",
     "subject": "Civil Engineering, TAMU",
     "duration": "2016-2017"
   },
   {
     "name": "Tamanna Tasnum",
-    "label": "M.S. Student",
+    "label": "M.Sc.",
     "subject": "Construction Science, TAMU",
     "duration": "2016"
   },
   {
     "name": "Juan Gonzalez",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Civil Engineering, TAMU",
     "duration": "2022-2023"
   },
   {
     "name": "Valerie Vierkant",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Psychology, TAMU",
     "duration": "2019-2023"
   },
   {
     "name": "Jaxson Murray",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Civil Engineering, TAMU",
     "duration": "2022"
   },
   {
     "name": "Ashley Trujillo",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Civil Engineering, TAMU",
     "duration": "2021-2022"
   },
   {
     "name": "Vinesh Ravuri",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Computer Science, TAMU",
     "duration": "2021"
   },
   {
     "name": "Magdalena Theel",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Psychology, TAMU",
     "duration": "2017-2020"
   },
   {
     "name": "Turzo Bose",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Chemical Engineering, HUST",
     "duration": "2018"
   },
   {
     "name": "Jared Wheeler",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Computer Science, TAMU",
     "duration": "2018"
   },
   {
     "name": "Tyler Sizemore",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Mechanical Engineering, TAMU",
     "duration": "2018-2019"
   },
   {
     "name": "Matthew Foley",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Civil Engineering, TAMU",
     "duration": "2018-2019"
   },
   {
     "name": "Christopher Lira",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Civil Engineering, TAMU",
     "duration": "2017-2018"
   },
   {
     "name": "Ly-Na Tran",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Biomedical Science, TAMU",
     "duration": "2017-2019"
   },
   {
     "name": "Jacob Bruce",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Civil Engineering, TAMU",
     "duration": "2019-current"
   },
   {
     "name": "Elizabeth Clark",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Civil Engineering, Virginia Tech",
     "duration": "2017"
   },
   {
     "name": "Anthony Teo",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Computer Science and Engineering, TAMU",
     "duration": "2018-2019"
   },
   {
     "name": "Urel Djiogan",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Computer Science and Engineering, TAMU",
     "duration": "2019"
   },
   {
     "name": "Richard Padilla",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Computer Science and Engineering, TAMU",
     "duration": "2018-2019"
   },
   {
     "name": "Daxton Davidson",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Civil Engineering, TAMU",
     "duration": "2018"
   },
   {
     "name": "Michelle Zupancich",
-    "label": "Undergraduate Student",
+    "label": "B.Sc.",
     "subject": "Civil Engineering, TAMU",
     "duration": "2016"
   }

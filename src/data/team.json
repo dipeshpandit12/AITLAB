@@ -17,8 +17,8 @@
   },
   {
     "name": "Ahmed Hossain",
-    "label": "Post-D. Researcher (June 2024 - Current)",
-    "group": "Post-D. Researcher",
+    "label": "Post-Doctoral Researcher (June 2024 - Current)",
+    "group": "Post-Doctoral Researcher",
     "linkedin": "https://www.linkedin.com/in/ahmed-hossain-7a623ab2/",
     "email": "",
     "image": "ahmed_hossain.jpg",
@@ -42,13 +42,13 @@
     "websites": []
   },
   {
-    "name": "David Mills",
+    "name": "David A. Mills",
     "label": "Ph.D. Candidate (Fall 2022 - Current)",
     "group": "Ph.D. Candidate",
     "linkedin": "https://www.linkedin.com/in/david-adam-mills/",
     "email": "davidmills@txstate.edu",
-    "image": "david_mills.jpg",
-    "description": "David Mills is a geospatial data analyst and software developer. He is a PhD Candidate in Geographic Information Science at Texas State University. David has been working for Dr. Das in the AIT Lab since 2022. David specializes in discovering and improving the understanding spatio-temporal phenomena. He builds pioneering smart technologies and leverages them using advanced geocomputational techniques. David is a former non-commissioned officer of the United States Army who developed cultural awareness, mechanical skills, and honed effective leadership while stationed in South Korea, Germany, and Afghanistan. He is detail-oriented, focused, and self-driven. David is a published researcher, a frequenter of scientific conferences, and an avid smart-technology enthusiast. He is committed to the task of promoting environmental and public safety awareness while improving communities through the application of leading-edge technologies and geospatial analysis.",
+    "image": "david_a._mills.jpg",
+    "description": "David A. Mills is a geospatial data analyst and software developer. He is a PhD Candidate in Geographic Information Science at Texas State University. David has been working for Dr. Das in the AIT Lab since 2022. David specializes in discovering and improving the understanding spatio-temporal phenomena. He builds pioneering smart technologies and leverages them using advanced geocomputational techniques. David is a former non-commissioned officer of the United States Army who developed cultural awareness, mechanical skills, and honed effective leadership while stationed in South Korea, Germany, and Afghanistan. He is detail-oriented, focused, and self-driven. David is a published researcher, a frequenter of scientific conferences, and an avid smart-technology enthusiast. He is committed to the task of promoting environmental and public safety awareness while improving communities through the application of leading-edge technologies and geospatial analysis.",
     "googleScholar": "https://scholar.google.com/citations?user=DJcqWr0AAAAJ&hl=en&oi=sra",
     "github": "https://github.com/davidamills",
     "twitter": "",
@@ -58,7 +58,7 @@
   },
   {
     "name": "Shriyank Somvanshi",
-    "label": "Ph.D. Student, Material Science Engineering and Commercialization (2023 – 2026)",
+    "label": "Ph.D. Candidate, MSEC (2023 – Current)",
     "group": "Ph.D. Candidate",
     "linkedin": "https://www.linkedin.com/in/shriyanksomvanshi/",
     "email": "",
@@ -71,7 +71,7 @@
   },
   {
     "name": "Mahmuda Sultana Mimi",
-    "label": "MS, Civil Engineering (Fall 2023 - Current)",
+    "label": "M.Sc., Civil Engineering (Fall 2023 - Current)",
     "group": "Graduate Student",
     "linkedin": "https://www.linkedin.com/in/mahmuda-mimi",
     "email": "",
@@ -84,7 +84,7 @@
   },
   {
     "name": "Syed Aaqib Javed",
-    "label": "MS, Civil Engineering (Fall 2023 – Current)",
+    "label": "M.Sc., Civil Engineering (Fall 2023 – Current)",
     "group": "Graduate Student",
     "linkedin": "https://www.linkedin.com/in/syed-aaqib-javed-37545b69/",
     "email": "",
@@ -97,7 +97,7 @@
   },
   {
     "name": "Rohit Chakraborty",
-    "label": "MS, Civil Engineering (2023 – 2025)",
+    "label": "M.Sc., Civil Engineering (2023 – Current)",
     "group": "Graduate Student",
     "linkedin": "https://www.linkedin.com/in/rohit-chakraborty-052579163/",
     "email": "",
@@ -110,7 +110,7 @@
   },
   {
     "name": "Swastika Barua",
-    "label": "MS, Civil Engineering (Fall 2023 - Current)",
+    "label": "M.Sc., Civil Engineering (Fall 2023 - Current)",
     "group": "Graduate Student",
     "linkedin": "https://www.linkedin.com/in/swastika-barua/",
     "email": "",
@@ -123,8 +123,8 @@
   },
   {
     "name": "Michael J Starewich",
-    "label": "MS, Mathematics with a Concentration in Statistics",
-    "group": "",
+    "label": "M.Sc., Mathematics (2024 - Current)",
+    "group": "Graduate Student",
     "linkedin": "https://www.linkedin.com/in/michael-starewich-5a4921331",
     "email": "mjstarewich@gmail.com",
     "image": "michael_j_starewich.jpg",
@@ -136,7 +136,7 @@
   },
   {
     "name": "Anannya Ghosh Tusti",
-    "label": "MS, Civil Engineering",
+    "label": "M.Sc., Civil Engineering (Fall 2024 - Current)",
     "group": "Graduate Student",
     "linkedin": "https://www.linkedin.com/in/anannyaghoshtusti",
     "email": "gpk30@txstate.edu",
@@ -149,7 +149,7 @@
   },
   {
     "name": "Md Monzurul Islam",
-    "label": "MS, Civil Engineering (Fall 2024 – Current)",
+    "label": "M.Sc., Civil Engineering (Fall 2024 – Current)",
     "group": "Graduate Student",
     "linkedin": "https://www.linkedin.com/in/monzurul-islam/",
     "email": "monzurul@txstate.edu",
@@ -167,7 +167,7 @@
   },
   {
     "name": "Sazzad Bin Bashar Polock",
-    "label": "MS, Civil Engineering (2023 – 2025)",
+    "label": "M.Sc., Civil Engineering (2023 – Current)",
     "group": "Graduate Student",
     "linkedin": "https://www.linkedin.com/in/sazzadpolock",
     "email": "sazzadpolock8@gmail.com",
@@ -180,7 +180,7 @@
   },
   {
     "name": "Rawand Almadi",
-    "label": "MS, Civil Engineering (Transportation) - 2023",
+    "label": "M.Sc., Civil Engineering, (2023 - Current)",
     "group": "Graduate Student",
     "linkedin": "",
     "email": "rfa20@txstate.edu",
@@ -192,12 +192,12 @@
     "description": "Rawand Almadi is a Master's student in Civil Engineering (Transportation) at Texas State University, working under the guidance of Dr. Subasish Das. Currently working as a graduate instructional assistant at the Ingram School of Engineering. She joined the Artificial Intelligence in Transportation (AIT) lab in Fall 2024. He earned his bachelor's degree in civil engineering from TXST in 2023."
   },
   {
-    "name": "Khaled Abousabaa",
-    "label": "BS, Civil Engineering",
+    "name": "Khaled Aly Abousabaa",
+    "label": "B.Sc., Civil Engineering (2023 - Current)",
     "group": "Undergraduate Student",
     "linkedin": "https://www.linkedin.com/in/kabousabaa-210432129/",
     "email": "",
-    "image": "khaled_abou_sabaa.jpg",
+    "image": "khaled_aly_abousabaa.jpg",
     "googleScholar": "",
     "github": "",
     "twitter": "",
@@ -206,7 +206,7 @@
   },
   {
     "name": "Darrell Anderson",
-    "label": "BS, Civil Engineering w/ a minor in Mathematics",
+    "label": "B.Sc., Civil Engineering (2023 - Current)",
     "group": "Undergraduate Student",
     "linkedin": "https://www.linkedin.com/in/darrell-m-anderson",
     "email": "",
@@ -219,7 +219,7 @@
   },
   {
     "name": "Dipesh Pandit",
-    "label": "BS, Computer Science ( 2024-2028 )",
+    "label": "B.Sc., Computer Science (Fall 2024 - Current)",
     "group": "Undergraduate Student",
     "linkedin": "https://www.linkedin.com/in/dipeshpandit12/",
     "email": "",
@@ -234,7 +234,7 @@
   },
   {
     "name": "Diwas Pandit",
-    "label": "BS, Computer Science ( 2024-2028 )",
+    "label": "B.Sc., Computer Science (Fall 2024 - Current)",
     "group": "Undergraduate Student",
     "linkedin": "https://www.linkedin.com/in/diwaspandit12/",
     "email": "",
@@ -249,7 +249,7 @@
   },
   {
     "name": "Biplov Pandey",
-    "label": "BS, Civil Engineering ( 2024 - 2028 )",
+    "label": "B.Sc., Civil Engineering (Fall 2024 - Current)",
     "group": "Undergraduate Student",
     "linkedin": "https://www.linkedin.com/in/biplov-pandey-09b43a306/",
     "email": "",
@@ -262,7 +262,7 @@
   },
   {
     "name": "Teale Robison",
-    "label": "BS, Urban and Regional Planning ( 2021- Current )",
+    "label": "B.Sc., Urban and Regional Planning (2021- Current)",
     "group": "",
     "linkedin": "https://www.linkedin.com/in/teale-robison-b0ab7624b",
     "email": "",
