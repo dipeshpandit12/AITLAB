@@ -1,6 +1,7 @@
 /** @format */
 import React from "react";
 import { Box, Text, Stack, Link } from "@chakra-ui/react";
+import {imageGenerator} from "./ImageGenerator";
 
 const ResearchPaperItem = ({
   title,
@@ -13,6 +14,9 @@ const ResearchPaperItem = ({
   issue,
   book,
 }) => {
+
+  const imagepath=imageGenerator(title);
+
   return (
     <Box
       p={3}
@@ -37,7 +41,8 @@ const ResearchPaperItem = ({
         {/* Background Image with zoom effect */}
         <Box
           height="100%"
-          backgroundImage="url('/img/research-default.jpg')" // Image path
+          // backgroundImage="url('/img/research-default.jpg')" // Image path
+          backgroundImage = {imagepath}// Image path
           backgroundSize="cover"
           backgroundPosition="center"
           transition="transform 0.3s ease"
