@@ -1,6 +1,6 @@
 /** @format */
 
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Box,
   Container,
@@ -16,6 +16,11 @@ import { ExternalLinkIcon } from "@chakra-ui/icons"; // Import the external link
 import talksData from "../../../data/talk.json"; // Assuming talks.json is located here
 
 const Talk = () => {
+  // Set dynamic page title
+  useEffect(() => {
+    document.title = "Talks | AIT Lab";
+  }, []);
+
   // Access the items array and sort by year in descending order
   const sortedTalks = talksData.items.sort((a, b) => b.year - a.year);
 
