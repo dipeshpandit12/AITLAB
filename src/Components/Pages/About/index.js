@@ -1,6 +1,6 @@
 /** @format */
 
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Box,
   Container,
@@ -15,6 +15,9 @@ import {
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 const AboutMe = () => {
+  useEffect(() => {
+    document.title = "About | AIT Lab";
+  }, []);
   return (
     <Box py={8} minHeight="100vh">
       <Container maxW="container.xl">
