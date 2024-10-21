@@ -34,8 +34,11 @@ const ResearchPapers = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
-  // Fetch papers from JSON
   useEffect(() => {
+    // Set dynamic page title
+    document.title = "Research Papers | AIT Lab";
+
+    // Fetch papers from JSON
     const fetchPapers = async () => {
       try {
         const response = await axios.get(
