@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Box,
   Container,
@@ -30,6 +30,11 @@ const cardVariants = {
 };
 
 const Team = () => {
+  // Set dynamic page title
+  useEffect(() => {
+    document.title = "Team | AIT Lab";
+  }, []);
+
   const [selectedMember, setSelectedMember] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
