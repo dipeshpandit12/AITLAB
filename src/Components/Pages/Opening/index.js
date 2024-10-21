@@ -1,6 +1,6 @@
 /** @format */
 
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Box,
   Container,
@@ -15,6 +15,11 @@ import {
 import { FaCheckCircle } from "react-icons/fa"; // Import icon
 
 const Openings = () => {
+  // Set dynamic page title
+  useEffect(() => {
+    document.title = "Openings | AIT Lab";
+  }, []);
+
   return (
     <Box py={8}>
       <Container maxW="container.xl">
