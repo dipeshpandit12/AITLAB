@@ -54,13 +54,15 @@
 //     )
 // }
 
-import {Center}from "@chakra-ui/react"
-export default function HomePage(){
-    return (
-        <>
-            <Center>
-                Page is under construction !!!!
-            </Center>
-        </>
-    )
+import { Center } from "@chakra-ui/react";
+import { useEffect } from "react";
+export default function HomePage() {
+  useEffect(() => {
+    document.title = "AIT LAB";
+  });
+  return (
+    <>
+      <Center>Page is under construction !!!!</Center>
+    </>
+  );
 }
