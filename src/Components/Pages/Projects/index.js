@@ -11,6 +11,9 @@ const Projects = () => {
 
   // Set initial projects data from JSON and sort by status and recency
   useEffect(() => {
+    // Set dynamic page title
+    document.title = "Research Grants | AIT Lab";
+
     let sortedProjects = [...projectsData];
 
     // Sort projects by status ("ongoing" first, then "completed") and by "end_year" (recent first)
